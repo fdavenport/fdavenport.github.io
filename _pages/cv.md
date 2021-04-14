@@ -1,6 +1,6 @@
 ---
 layout: page
-order: 0
+order: 2
 title: cv
 permalink: /cv/
 description:
