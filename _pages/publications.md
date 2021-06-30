@@ -39,4 +39,3 @@ nav: true
 	  <br/>
     {% endfor %}
   </ol>
-
