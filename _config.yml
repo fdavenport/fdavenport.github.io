@@ -1,0 +1,86 @@
+# 2. Installed Gems
+plugins:
+- jekyll-sitemap
+- jekyll-mentions
+- jekyll-paginate
+- jekyll-seo-tag
+- jekyll-redirect-from
+- jekyll-feed
+- jekyll-commonmark
+- jekyll-include-cache
+- jemoji
+
+# 4. Jekyll settings
+sass:
+  style: compressed # Style compression
+permalink: pretty  # Permalink style (/YYYY/MM/DD/page-name/)
+excerpt_separator: <!-- more --> # Marks end of excerpt in posts
+
+
+# 6. Jekyll collections settings
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      image:  # Default image for sharing
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: page # Set the default layout for pages
+
+# 7. Site settings
+encoding: utf-8 # Make sure the encoding is right
+
+title: "Davenport Research Group" # Site name or title, also used in jekyll-seo-tag
+author: ""
+logo: "" # Site logo, also used in jekyll-seo-tag
+description: "" # Site description and default description, also used in jekyll-seo-tag
+url: "" # Site url, also used in jekyll-seo-tag
+baseurl: ""
+repo: ""
+email: ""
+css_inline: true # Will insert all styles into a single <style> block in the <head> element and remove the style <link> reference
+
+primarycolor:
+secondarycolor:
+
+# 9. Site navigation
+navigation_header:
+- title: About
+  url: /
+- title: People
+  url: /people/
+- title: Research
+  url: /research/
+- title: Publications
+  url: /publications/
+- title: Code
+  url: /code/
+- title: Opportunities
+  url: /opportunities/
+
+navigation_footer:
+- title: 
+  url: 
+
+social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
+  Twitter: https://twitter.com/fvdav
+  GitHub: https://github.com/fdavenport
+
+sharing_links: # Appear at the bottom of single blog posts, add as desired. The value can be 'true' or the desired button colour
+  Twitter: "#0d94e7"
+  facebook: "#3B5998"
+  Email: true
+
+# Load custom fonts from fonts.google.com etc
+#
+# TIP: Try to keep the number of urls as low to reduce the performance cost
+#      If multiple fonts can be requested in a single url opt for this
+fonts:
+  preconnect_urls:
+    - https://fonts.gstatic.com
+  font_urls:
+    - https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,700&display=swap
