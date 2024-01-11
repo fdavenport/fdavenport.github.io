@@ -1,10 +1,31 @@
-- authors: Yu, G., D. B., Wright, and <b>F. V. Davenport</b>
+- authors: Gordon, E. M., E. A. Barnes, and <b>F. V. Davenport</b>
+  title: "Separating internal and forced contributions to near term SST predictability in the CESM2-LE"
+  year: 2023
+  journal: Environmental Research Letters
+  DOI: https://doi.org/10.1088/1748-9326/acfdbc
+  pdf: Gordon_etal_2023.pdf
+
+- authors: Trok, J. T. <b>F. V. Davenport</b>, E. A. Barnes and N. S. Diffenbaugh
+  title: "Using Machine Learning with Partial Dependence Analysis to Investigate Coupling Between Soil Moisture and Near-surface Temperature"
+  year: 2023
+  journal: Journal of Geophysical Research: Atmospheres
+  DOI: https://doi.org/10.1029/2022JD038365
+  pdf: Trok_etal_2023.pdf
+  
+- authors: Ly, A., <b>F. V. Davenport</b>, and N. S. Diffenbaugh
+  title: "Exploring the Influence of Summer Temperature on Human Mobility During the COVID-19 Pandemic in the San Francisco Bay Area"
+  year: 2023
+  journal: GeoHealth
+  DOI:  https://doi.org/10.1029/2022GH000772
+  pdf: Ly_etal_2023.pdf
+  
+- authors: Yu, G., D. B. Wright, and <b>F. V. Davenport</b>
   title: "Diverse Physical Processes Drive Upper-Tail Flood Quantiles in the US Mountain West"
   year: 2022
   journal: Geophysical Research Letters
   DOI: https://doi.org/10.1029/2022GL098855
   press: 'press_Yu2022'
-  pdf: Yu_et_al_2022.pdf
+  pdf: Yu_etal_2022.pdf
   
 - authors: Diffenbaugh, N. S., and <b>F. V. Davenport</b>
   title: "On the impossibility of extreme event thresholds in the absence of global warming"
