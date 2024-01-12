@@ -1,10 +1,8 @@
+---
 title: Davenport Research Group @ CSU
-feature_text:
-
+feature_text: |
 feature_image: "/assets/lakepowell_crop.jpg"
-
 excerpt: ""
-
 ---
 
 Welcome! Our group explores research questions related to global climate and the hydrologic cycle, extreme climate events, and how climate change impacts human and natural systems. We use global climate models, observational data from in-situ monitoring networks and remote sensing, and computational analysis tools, including deep learning. Read more about research [here](/research/).
