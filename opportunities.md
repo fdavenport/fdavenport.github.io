@@ -13,8 +13,6 @@ Students with a background in engineering, atmospheric or earth sciences, physic
 
 Successful applicants will join the Civil and Environmental Engineering Department at Colorado State University. CEE has a strong graduate program in hydrology, with many faculty focused on water-related research. In addition, there are opportunities for coursework and/or collaborations across campus, including in the Warner College of Natural Resources, the Department of Atmospheric Science, and the College of Agricultural Sciences. 
 
-If you are a Dartmouth undergraduate student, a geography department honors thesis student, or interested in working with the group on climate research send Justin an email briefly outlining your research interests and we can set up a time to discuss research projects beginning in the fall of 2018.
-
 #### Postdocs
 
 I do not currently have funding for postdocs, but postdocs interested in joining the group can apply for external fellowships, such as the NOAA Climate and Global Change postdoctoral program or through the NSF. Intersted applicants can contact Frances via email with a description of their background and interests to determine if our group would be an appropriate fit. 
