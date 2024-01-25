@@ -15,7 +15,7 @@ Successful applicants will join the Civil and Environmental Engineering Departme
 
 #### Postdocs
 
-I do not currently have funding for postdocs, but postdocs interested in joining the group can apply for external fellowships, such as the NOAA Climate and Global Change postdoctoral program or through the NSF. Intersted applicants can contact Frances via email with a description of their background and interests to determine if our group would be an appropriate fit. 
+I do not currently have funding for postdocs, but postdocs interested in joining the group can apply for external fellowships, such as the NOAA Climate and Global Change postdoctoral program or through the NSF. Interested applicants can contact Frances via email with a description of their background and interests to determine if our group would be an appropriate fit. 
 
 #### About Fort Collins 
 
