@@ -35,8 +35,8 @@ defaults:
 encoding: utf-8 # Make sure the encoding is right
 
 title: "Davenport Research Group" # Site name or title, also used in jekyll-seo-tag
-author: ""
-logo: "" # Site logo, also used in jekyll-seo-tag
+author: "Frances Davenport"
+logo: "https://cdn.jsdelivr.net/gh/realmiketalbot/fdavenport.github.io/assets/cloud-computing-svgrepo-com.svg"
 description: "" # Site description and default description, also used in jekyll-seo-tag
 url: "" # Site url, also used in jekyll-seo-tag
 baseurl: ""
