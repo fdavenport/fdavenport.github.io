@@ -5,4 +5,4 @@ feature_image: "/assets/earth.jpg"
 excerpt: ""
 ---
 
-Coming soon
+Coming soon! 
