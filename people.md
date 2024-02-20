@@ -1,15 +1,32 @@
 ---
 title: People
 feature_text:
-feature_image: "/assets/mountains.jpg"
+feature_image: "/assets/images/feature/mountains.jpg"
 excerpt: ""
 ---
 
-{% include figure.html image="/assets/images/profile/Davenport.jpg" position="bottomleft" width="200" height="800" %}
+<!-- {% include figure.html image="/assets/images/profile/Davenport.jpg" position="bottomleft" width="200" height="800" %}
 <p style="font-size:18px;line-height: 22px; "> <b>Dr. Frances Davenport (she/her)</b> is an Assistant Professor of Civil and Environmental Engineering at CSU. She is interested in global climate change and its impacts, particularly with respect to extreme climate events and the hydrologic cycle. Frances received an undergraduate degree in Engineering Sciences from Dartmouth College, after which she worked as a surface water engineer in Denver, CO before pursuing her Ph.D. in Earth System Science from Stanford University. She was then a postdoc in CSU’s Department of Atmospheric Science before joining the department of Civil and Environmental Engineering. In her free time, Frances enjoys spending time with her husband, daughter, and dog, riding one of her many bikes around Fort Collins or on the surrounding trails, working in her garden, skiing, or floating down a river.</p>
 
 {% include figure.html image="/assets/images/profile/Keeney.png" position="bottomleft" width="200" height="800" %}
 <p style="font-size:18px;line-height: 22px; "> <b>Nicole Keeney (she/her)</b> is a PhD student interested in climate change and its broader impacts on the earth system and human society, particularly from a computational lens. She has a bachelor's degree in Atmospheric Science from UC Berkeley and has worked in climate-related research in a number of different fields, including cryospheric sciences and public health. Nicole also worked as a developer for a cloud-based climate data analytics platform for supporting climate adaptation in California's energy sector. Outside of work, Nicole likes to disconnect from her computer and spend time being active: she loves to bike around town, hike in the beautiful Colorado mountains, and salsa dance. She's also an avid reader. Learn more about Nicole at her <a href="https://nicolekeeney.com/" target="_blank">website</a>.</p>
 
 {% include figure.html image="/assets/images/profile/Talbot.jpg" position="bottomleft" width="200" height="800" %}
-<p style="font-size:18px;line-height: 22px; "><b>Mike Talbot</b> is a PhD student in the Hydrologic Sciences & Engineering program at CSU. His research interests span the intersections between climate change, hydrology, flood mitigation, and data science. Mike received his bachelor's degree in Biosystems and Agricultural Engineering and his master's degree in Bioproducts and Biosystems Engineering from the University of Minnesota in 2009 and 2019, respectively. From 2013 to 2023, he worked as a water resources engineering consultant performing watershed planning, floodplain management, and storm water modeling across the midwestern US and eastern Canada. Mike also enjoys cross-country skiing, hiking, wrestling his dogs, playing guitar too loudly, and (responsibly) biking between Fort Collins' myriad breweries and distilleries. Learn more about Mike at his <a href="https://miketalbot.io/" target="_blank">website</a>.</p>
+<p style="font-size:18px;line-height: 22px; "><b>Mike Talbot</b> is a PhD student in the Hydrologic Sciences & Engineering program at CSU. His research interests span the intersections between climate change, hydrology, flood mitigation, and data science. Mike received his bachelor's degree in Biosystems and Agricultural Engineering and his master's degree in Bioproducts and Biosystems Engineering from the University of Minnesota in 2009 and 2019, respectively. From 2013 to 2023, he worked as a water resources engineering consultant performing watershed planning, floodplain management, and storm water modeling across the midwestern US and eastern Canada. Mike also enjoys cross-country skiing, hiking, wrestling his dogs, playing guitar too loudly, and (responsibly) biking between Fort Collins' myriad breweries and distilleries. Learn more about Mike at his <a href="https://miketalbot.io/" target="_blank">website</a>.</p> -->
+
+{% for person in site.data.people %}
+<div class="col-12">
+    <div class="card mb-3">
+        <div class="row g-0">
+            <div class="col-md-3">
+                <img src="{{ person.photo }}" class="img-fluid" alt="">
+            </div>
+            <div class="col-md-9">
+                <div class="card-body profile-body">
+                    <p class="card-text profile-text" style="line-height: normal"><b>{{ person.title }} {{ person.name }} ({{ person.pronouns }})</b> {{ person.profile }} {% unless person.website == blank %} Learn more at {{ person.name | split: " " | first }}'s  <a href="{{ person.website }}" target="_blank">website.</a> {% endunless %}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endfor %}

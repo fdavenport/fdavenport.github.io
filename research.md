@@ -1,15 +1,15 @@
 ---
 layout: research
-title: Research Areas
+title: Research Projects
 feature_text: 
-feature_image: "/assets/earth.jpg"
+feature_image: "/assets/images/feature/earth.jpg"
 excerpt: ""
 ---
 
 <!-- add one bootstrap card for each research project -->
 <div class="row">
-    <!-- ongoing research section -->
     <h2>Ongoing Research</h2>
+    <!-- ongoing research section -->
     {% for project in site.data.research %}
         {% unless project.title == "Nothing" %}
             {% if project.status == "Ongoing" %}
@@ -29,6 +29,7 @@ excerpt: ""
                                 </div>
                             </div>
                         <span class="card-footer text-wrap">Image: {{ project.caption }}</span>
+                        </div>
                     </div>
                 </div>
             {% endif %}            
@@ -44,9 +45,9 @@ excerpt: ""
     {% for project in site.data.research %}
         {% unless project.title == "Nothing" %}
             {% if project.status == "Previous" %}
-                <div class="col-4">
+                <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="card mb-3">
-                        <a href="#" class="stretched-link">
+                        <a href="{{ project.url }}" class="stretched-link">
                             <img src="{{ project.figure }}" class="card-img-top" alt="{{ project.alt-text}}">
                         </a>
                         <div class="card-body">

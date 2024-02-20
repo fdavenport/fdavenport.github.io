@@ -1,7 +1,7 @@
 ---
 title: Opportunities
 feature_text: 
-feature_image: "/assets/horsetooth.jpg"
+feature_image: "/assets/images/feature/horsetooth.jpg"
 excerpt: ""
 ---
 
