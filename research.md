@@ -1,5 +1,5 @@
 ---
-layout: research
+layout: page
 title: Research Projects
 feature_text: 
 feature_image: "/assets/images/feature/earth.jpg"
@@ -18,7 +18,7 @@ excerpt: ""
                         <div class="row g-0">
                             <div class="col-md-4">
                                 <a href="{{ project.url }}" class="stretched-link">
-                                    <img src="{{ project.figure }}" class="img-fluid rounded-topleft" alt="{{ project.alt-text }}">
+                                    <img src="{{ project.figure }}" class="img-fluid img-research" alt="{{ project.alt-text }}">
                                 </a>
                             </div>
                             <div class="col-md-8">

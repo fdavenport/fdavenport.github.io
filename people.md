@@ -1,4 +1,5 @@
 ---
+layout: page
 title: People
 feature_text:
 feature_image: "/assets/images/feature/mountains.jpg"
@@ -19,7 +20,7 @@ excerpt: ""
     <div class="card mb-3">
         <div class="row g-0">
             <div class="col-md-3">
-                <img src="{{ person.photo }}" class="img-fluid" alt="">
+                <img src="{{ person.photo }}" class="img-fluid img-profile" alt="">
             </div>
             <div class="col-md-9">
                 <div class="card-body profile-body">
