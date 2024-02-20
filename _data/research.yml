@@ -2,46 +2,94 @@
 
 # Example data
 #- title: This is the title of the research project
+#  status: Choose one: Ongoing or Previous (determines if the project shows up at the top or in the "Previous Research" section)
 #  figure: /assets/images/research/image-name.jpg
+#  url: relative path to the research page (e.g., interpretable-machine-learning.html)
 #  alt-text: Alt text is import for accessibility. It should describe the image.
 #  caption: This is the caption for the card on the Research page. It should describe the project in XX words or less. 
-#  researcher: Name of primary research goes here. Shows up on the bottom of the card.
-#  description: This is the actual research description that will show up on the project page. 
-#  questions:
-#   - q: "The first question the research is attempting to answer."
-#     a: "A description of the approach to answering the first question. Can be very long..."
-#   - q: "The second question the research is attempting to answer."
-#     a: "A description of the approach to answering the second question. Can be very long..."
-#   - q: etc.
-#     a: etc.
-#  pubs:
-#   - name: 'Author(s), Year' (first publication)
-#     link: 'https://example.com'
-#   - name: 'Author(s), Year' (second publication)
-#     link: 'https://example.com'
-#   - name: etc.
-#     link: etc.
-#  media:
-#   - name: 'Publication Name' (e.g., New York Times)
-#     link: 'https://example.com'
-#   - name: 'Publication Name' (e.g., Washington Post)
-#     link: 'https://example.com'
-#   - name: etc.
-#     link: etc.
+#  last-updated: Month Day, Year
 
-- title: "Interpretable machine learning to study climate change and extreme precipitation"
-  figure: "/assets/images/example/pexels-chokniti-khongchum-2280549.jpg"
-  alt-text: "..."
-  short-desc: "This research demonstrates how deep learning and AI can be incredibly useful tools to help scientists understand climate change. My current research involves further developing these approaches to study other regions, and to study other events, like extreme heat."
-  caption: "500 millibar geopotential height anomalies on June 8, 1993, a day with heavy precipitation over the Midwest region. Precipitation during June and July 1993 caused major flooding over the Midwest."
+# - title: Nothing # This is a placeholder. Comment it out when content is added below, but do not change it.
+
+# ONGOING RESEARCH SECTION
+- title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  status: Ongoing
+  figure: "/assets/images/example/pexels-frank-cone-2226190.jpg"
+  url: 'project-example-1.html'
+  alt-text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec dui nunc mattis enim. Arcu odio ut sem nulla pharetra diam."
+  short-desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec dui nunc mattis enim. Arcu odio ut sem nulla pharetra diam."
+  caption: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec dui nunc mattis enim. Arcu odio ut sem nulla pharetra diam."
   last-updated: "February 19th, 2024"
-  description:
-  questions:
-   - q: "How does climate change affect the frequency and intensity of extreme precipitation?"
-     a: "There is evidence that global warming is increasing the occurrence of extreme precipitation in regions such as the U.S. Midwest. However, there are still questions about the relative influence of <i>dynamic changes</i> (those originating from changes in the large-scale atmospheric circulation) and <i>thermodynamic changes </i> (those driven by increasing atmospheric temperatures). In this research, I am using machine learning to help answer this question. <br/><br/>I have trained a convolutional neural network (CNN) to identify days with large-scale circulation patterns that are linked to extreme precipitation. Our research shows there has been a significant increase in the frequency of these extreme precipitation-associated circulation patterns over the past 20 years. Additionally, there have been significant increases in Midwest precipitation intensity when these circulation patterns occur. In other words, this research shows that both dynamic and thermodynamic changes have contributed to the recent increases in Midwest extreme precipitation."
-  pubs:
-   - name: 'Davenport and Diffenbaugh, 2021'
-     link: 'https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2021GL093787'
-  media:
-   - name: 'Stanford News'
-     link: 'https://news.stanford.edu/2021/08/10/understanding-extreme-weather/'
+
+- title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  status: Ongoing
+  figure: "/assets/images/example/pexels-magda-ehlers-2114014.jpg"
+  url: 'project-example-2.html'
+  alt-text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec dui nunc mattis enim. Arcu odio ut sem nulla pharetra diam."
+  short-desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec dui nunc mattis enim. Arcu odio ut sem nulla pharetra diam."
+  caption: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec dui nunc mattis enim. Arcu odio ut sem nulla pharetra diam."
+  last-updated: "December 19th, 2023"
+
+- title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  status: Ongoing
+  figure: "/assets/images/example/pexels-pixabay-433308.jpg"
+  url: 'project-example-3.html'
+  alt-text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec dui nunc mattis enim. Arcu odio ut sem nulla pharetra diam."
+  short-desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec dui nunc mattis enim. Arcu odio ut sem nulla pharetra diam."
+  caption: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec dui nunc mattis enim. Arcu odio ut sem nulla pharetra diam."
+  last-updated: "October 19th, 2023"
+
+# PREVIOUS RESEARCH SECTION
+- title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  status: Previous
+  figure: "/assets/images/example/pexels-frank-cone-2226190.jpg"
+  url: 'project-example-1.html'
+  alt-text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec dui nunc mattis enim. Arcu odio ut sem nulla pharetra diam."
+  short-desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec dui nunc mattis enim. Arcu odio ut sem nulla pharetra diam."
+  caption: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec dui nunc mattis enim. Arcu odio ut sem nulla pharetra diam."
+  last-updated: "February 19th, 2024"
+
+- title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  status: Previous
+  figure: "/assets/images/example/pexels-magda-ehlers-2114014.jpg"
+  url: 'project-example-2.html'
+  alt-text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec dui nunc mattis enim. Arcu odio ut sem nulla pharetra diam."
+  short-desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec dui nunc mattis enim. Arcu odio ut sem nulla pharetra diam."
+  caption: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec dui nunc mattis enim. Arcu odio ut sem nulla pharetra diam."
+  last-updated: "December 19th, 2023"
+
+- title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  status: Previous
+  figure: "/assets/images/example/pexels-pixabay-433308.jpg"
+  url: 'project-example-3.html'
+  alt-text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec dui nunc mattis enim. Arcu odio ut sem nulla pharetra diam."
+  short-desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec dui nunc mattis enim. Arcu odio ut sem nulla pharetra diam."
+  caption: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec dui nunc mattis enim. Arcu odio ut sem nulla pharetra diam."
+  last-updated: "October 19th, 2023"
+
+- title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  status: Previous
+  figure: "/assets/images/example/pexels-frank-cone-2226190.jpg"
+  url: 'project-example-1.html'
+  alt-text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec dui nunc mattis enim. Arcu odio ut sem nulla pharetra diam."
+  short-desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec dui nunc mattis enim. Arcu odio ut sem nulla pharetra diam."
+  caption: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec dui nunc mattis enim. Arcu odio ut sem nulla pharetra diam."
+  last-updated: "February 19th, 2024"
+
+- title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  status: Previous
+  figure: "/assets/images/example/pexels-magda-ehlers-2114014.jpg"
+  url: 'project-example-2.html'
+  alt-text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec dui nunc mattis enim. Arcu odio ut sem nulla pharetra diam."
+  short-desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec dui nunc mattis enim. Arcu odio ut sem nulla pharetra diam."
+  caption: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec dui nunc mattis enim. Arcu odio ut sem nulla pharetra diam."
+  last-updated: "December 19th, 2023"
+
+- title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  status: Previous
+  figure: "/assets/images/example/pexels-pixabay-433308.jpg"
+  url: 'project-example-3.html'
+  alt-text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec dui nunc mattis enim. Arcu odio ut sem nulla pharetra diam."
+  short-desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec dui nunc mattis enim. Arcu odio ut sem nulla pharetra diam."
+  caption: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec dui nunc mattis enim. Arcu odio ut sem nulla pharetra diam."
+  last-updated: "October 19th, 2023"
