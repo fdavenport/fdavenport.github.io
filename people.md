@@ -17,7 +17,7 @@ excerpt: ""
 
 {% for person in site.data.people %}
 <div class="col-12">
-    <div class="card mb-3">
+    <div class="card mb-3 box-shadow">
         <div class="row g-0">
             <div class="col-md-3">
                 <img src="{{ person.photo }}" class="img-fluid img-profile" alt="">
