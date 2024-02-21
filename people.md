@@ -8,12 +8,10 @@ excerpt: ""
 
 {% for person in site.data.people %}
 <div class="col-12">
-    <div class="card mb-3 box-shadow">
+    <div class="card mb-3">
         <div class="row g-0">
             <div class="col-md-3">
-                <a href="{{ person.website }}" target="_blank" class="stretched-link">
-                    <img src="{{ person.photo }}" class="img-fluid img-profile" alt="">
-                </a>
+                <img src="{{ person.photo }}" class="img-fluid img-profile" alt="">
             </div>
             <div class="col-md-9">
                 <div class="card-body profile-body">
