@@ -124,3 +124,20 @@ layout: default
 </main>
 
 {% include site-footer.html %}
+
+<script>
+  $("a").hover(function() {
+    // Add your code inside if condition if you want to check target = '_blank' attribute
+    // var attr = $(this).attr('target');
+    // if (typeof attr !== typeof undefined && attr !== false) {
+    // }
+    $(this).attr('href', 'https://www.google.com'); //Your URL internal or external.If you don't want manual URL, add desire URL on data attribute and take URL from there.
+    $(this).addClass('fa fa-link');
+
+  },
+  function() {
+    $(this).attr('href', '#'); //Your URL
+    $(this).removeClass('fa fa-link');
+
+  });
+</script>
