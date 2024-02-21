@@ -5,7 +5,7 @@ feature_image: "/assets/images/feature/horsetooth.jpg"
 excerpt: ""
 ---
 
-##### Graduate Students
+#### Graduate Students
 
 I may have funding for additional students to join the group in Fall 2024. Students with funding through a fellowship can also apply to join the group. 
 
