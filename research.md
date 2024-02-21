@@ -8,7 +8,7 @@ excerpt: ""
 
 <!-- add one bootstrap card for each research project -->
 <div class="row">
-    <h2>Ongoing Research</h2>
+    <h4 class="mb-2">Ongoing Research</h4>
     <!-- ongoing research section -->
     {% for project in site.data.research %}
         {% unless project.title == "Nothing" %}
@@ -41,7 +41,7 @@ excerpt: ""
 </div>
 <hr>
 <div class="row">
-    <h2>Previous Research</h2>
+    <h4 class="mb-2">Previous Research</h4>
     {% for project in site.data.research %}
         {% unless project.title == "Nothing" %}
             {% if project.status == "Previous" %}
