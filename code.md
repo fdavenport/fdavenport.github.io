@@ -1,7 +1,7 @@
 ---
 title: Code
 feature_text: 
-feature_image: "/assets/mississippi_crop.jpg"
+feature_image: "/assets/images/feature/mississippi_crop.jpg"
 excerpt: ""
 ---
 

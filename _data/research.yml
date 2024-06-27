@@ -1,61 +1,95 @@
-- title: Interpretable machine learning to study climate change and extreme precipitation
-  color: lightgray
-  figure: ../assets/img/precip_circulation_fig.png
-  caption: "500 millibar geopotential height anomalies on June 8, 1993, a day with heavy precipitation over the Midwest region. Precipitation during June and July 1993 caused major flooding over the Midwest."
-  questions:
-   - q: "How does climate change affect the frequency and intensity of extreme precipitation?"
-     description: "There is evidence that global warming is increasing the occurrence of extreme precipitation in regions such as the U.S. Midwest. However, there are still questions about the relative influence of <i>dynamic changes</i> (those originating from changes in the large-scale atmospheric circulation) and <i>thermodynamic changes </i> (those driven by increasing atmospheric temperatures). In this research, I am using machine learning to help answer this question. <br/><br/>I have trained a convolutional neural network (CNN) to identify days with large-scale circulation patterns that are linked to extreme precipitation. Our research shows there has been a significant increase in the frequency of these extreme precipitation-associated circulation patterns over the past 20 years. Additionally, there have been significant increases in Midwest precipitation intensity when these circulation patterns occur. In other words, this research shows that both dynamic and thermodynamic changes have contributed to the recent increases in Midwest extreme precipitation. 
+# This data feeds both the Research page (each entry is associated with a card on that page) as well as the individual research project pages. 
 
-More broadly, this research demonstrates how deep learning and AI can be incredibly useful tools to help scientists understand climate change. My current research involves further developing these approaches to study other regions, and to study other events, like extreme heat."
-  pubs:
-   - name: 'Davenport and Diffenbaugh, 2021'
-     link: 'https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2021GL093787'
-  media:
-   - name: 'Stanford News'
-     link: 'https://news.stanford.edu/2021/08/10/understanding-extreme-weather/'
-     
-- title: Estimating economic costs of extreme precipitation and flooding
-  color: lightgray
-  figure: ../assets/img/flood_damages_fig.png
-  caption: "Changes in precipitation have caused around one-third ($73 billion) of US flood damages between 1988 and 2017. (Figure adapted from <a href='https://www.pnas.org/content/118/4/e2017524118' target='_blank'>Davenport et al., 2021</a>)"
-  pubs:
-   - name: 'Davenport et al., 2021'
-     link: 'https://www.pnas.org/content/118/4/e2017524118'
-  media:
-   - name: 'Washington Post,'
-     link: 'https://www.washingtonpost.com/health/climate-change-blamed-for-a-third-of-us-flood-losses-in-past-3-decades/2021/01/15/398728a2-544c-11eb-a817-e5e7f8a406d6_story.html'
-   - name: SF Chronicle, 
-     link: 'https://www.sfchronicle.com/environment/article/Climate-change-causing-one-third-of-flood-damage-15862429.php'
-   - name: Bloomberg, 
-     link: 'https://www.bloomberg.com/news/articles/2021-01-11/flooding-due-to-climate-change-caused-75-billion-of-damage-in-the-u-s'
-   - name: CBS News, 
-     link: 'https://www.cbsnews.com/news/climate-change-flood-costs-study/'
-   - name: Reuters, 
-     link: 'https://www.reuters.com/article/climate-change-usa-floods/climate-change-blamed-for-a-third-of-u-s-flood-losses-in-past-3-decades-idUSL8N2JM30N'
-   - name: Stanford News
-     link: 'https://news.stanford.edu/2021/01/11/climate-change-caused-one-third-historical-flood-damages/'
-  questions:
-   - q: How have increases in precipitation affected the cost of flood damages in the United States?  
-     description: "In this project, we analyze historical records of flood damage and precipitation in the U.S. over the recent past (1988-2017). Based on our statistical models, we estimate that increases in precipitation in the U.S. have caused about one third (or around $73 billion) of the recent flood damages. Although there are a number of factors that could lead to increased precipitation, human-caused climate change has likely contributed to these additional costs."
-   - q: Why is this important? 
-     description: "Flooding is one of the most common natural hazards - many people have personally experienced flooding and the damages it causes. Our research shows that climate change is making these costs worse. It is critical to consider these costs (and how they might be avoided in the future) when discussing possible climate change mitigation or adaptation strategies. This type of research provides essential information to policy makers who are evaluating benefits and costs of climate action."
-  
-- title: Snowmelt-driven vs. rain-driven flooding in the Western U.S.
-  color: lightblue
-  figure: ../assets/img/snow_flood_fig.png
-  caption: "(A) Change in winter (Nov-March) rain percentage for each watershed from 1980-2016. (B) Change in winter rain percentage based on watershed elevation and latitude. (C) Response of streamflow to changes in precipitation event rain percentage, calculated using a piecewise linear regression (purple indicates 95% confidence interval). The left (right) axis shows the change in streamflow relative to 0% (100%) rain events."
-  pubs:
-   - name: 'Davenport et al., 2020'
-     link: 'https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2019WR025571'
-  media:
-   - name: 'Stanford News'
-     link: 'https://news.stanford.edu/2020/01/27/rain-less-snow-increases-flooding/'
-  questions:
-   - q: How does flooding in mountainous regions change when winter precipitation falls as rain instead of snow? 
-     description: "Our research found that the largest rain-driven floods are >2.5 times the size of the largest snowmelt-driven floods. In fact, we found an approximately exponential relationship between the size of a flood and the fraction of rain contributing to the flood. In other words, a shift from snow to rain typically results in larger floods."
-   - q: What are the future implications? 
-     description: "This research suggests that in a warmer climate, most watersheds could experience increases in winter flood risk if a higher percentage of precipitation falls as rain. Our results indicates this is especially true for watersheds that have historically had a mixture of both snow and rain. These changes in flood size could occur even if the amount of precipitation doesn't change."
-   - q: How did we answer these questions?
-     description: "We analyzed daily streamflow data from 410 USGS stream gages across the Western U.S. using a panel regression. Panel regression analysis is a common econometric method that has only recently been applied to hydrology. This method allows us to to estimate the relationship between snow fraction and flood size across a large number of watersheds, while controlling for differences between watersheds that affect flooding (such as drainage area, topography, vegetation, etc.). Panel regression is really useful tool to understand how hydrology responds to changes in climate."
+# Example data
+#- title: This is the title of the research project
+#  status: Choose one: Ongoing or Previous (determines if the project shows up at the top or in the "Previous Research" section)
+#  figure: /assets/images/research/image-name.jpg
+#  url: relative path to the research page (e.g., interpretable-machine-learning.html)
+#  alt-text: Alt text is import for accessibility. It should describe the image.
+#  caption: This is the caption for the card on the Research page. It should describe the project in XX words or less. 
+#  last-updated: Month Day, Year
 
+# - title: Nothing # This is a placeholder. Comment it out when content is added below, but do not change it.
 
+# ONGOING RESEARCH SECTION
+- title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  status: Ongoing
+  figure: "/assets/images/example/pexels-frank-cone-2226190.jpg"
+  url: 'project-example-1'
+  alt-text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec dui nunc mattis enim. Arcu odio ut sem nulla pharetra diam."
+  short-desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec dui nunc mattis enim. Arcu odio ut sem nulla pharetra diam."
+  caption: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec dui nunc mattis enim. Arcu odio ut sem nulla pharetra diam."
+  last-updated: "February 19th, 2024"
+
+- title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  status: Ongoing
+  figure: "/assets/images/example/pexels-magda-ehlers-2114014.jpg"
+  url: 'project-example-2.html'
+  alt-text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec dui nunc mattis enim. Arcu odio ut sem nulla pharetra diam."
+  short-desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec dui nunc mattis enim. Arcu odio ut sem nulla pharetra diam."
+  caption: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec dui nunc mattis enim. Arcu odio ut sem nulla pharetra diam."
+  last-updated: "December 19th, 2023"
+
+- title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  status: Ongoing
+  figure: "/assets/images/example/pexels-pixabay-433308.jpg"
+  url: 'project-example-3.html'
+  alt-text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec dui nunc mattis enim. Arcu odio ut sem nulla pharetra diam."
+  short-desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec dui nunc mattis enim. Arcu odio ut sem nulla pharetra diam."
+  caption: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec dui nunc mattis enim. Arcu odio ut sem nulla pharetra diam."
+  last-updated: "October 19th, 2023"
+
+# PREVIOUS RESEARCH SECTION
+- title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  status: Previous
+  figure: "/assets/images/example/pexels-frank-cone-2226190.jpg"
+  url: 'project-example-1.html'
+  alt-text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec dui nunc mattis enim. Arcu odio ut sem nulla pharetra diam."
+  short-desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec dui nunc mattis enim. Arcu odio ut sem nulla pharetra diam."
+  caption: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec dui nunc mattis enim. Arcu odio ut sem nulla pharetra diam."
+  last-updated: "February 19th, 2024"
+
+- title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  status: Previous
+  figure: "/assets/images/example/pexels-magda-ehlers-2114014.jpg"
+  url: 'project-example-2.html'
+  alt-text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec dui nunc mattis enim. Arcu odio ut sem nulla pharetra diam."
+  short-desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec dui nunc mattis enim. Arcu odio ut sem nulla pharetra diam."
+  caption: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec dui nunc mattis enim. Arcu odio ut sem nulla pharetra diam."
+  last-updated: "December 19th, 2023"
+
+- title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  status: Previous
+  figure: "/assets/images/example/pexels-pixabay-433308.jpg"
+  url: 'project-example-3.html'
+  alt-text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec dui nunc mattis enim. Arcu odio ut sem nulla pharetra diam."
+  short-desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec dui nunc mattis enim. Arcu odio ut sem nulla pharetra diam."
+  caption: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec dui nunc mattis enim. Arcu odio ut sem nulla pharetra diam."
+  last-updated: "October 19th, 2023"
+
+- title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  status: Previous
+  figure: "/assets/images/example/pexels-frank-cone-2226190.jpg"
+  url: 'project-example-1.html'
+  alt-text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec dui nunc mattis enim. Arcu odio ut sem nulla pharetra diam."
+  short-desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec dui nunc mattis enim. Arcu odio ut sem nulla pharetra diam."
+  caption: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec dui nunc mattis enim. Arcu odio ut sem nulla pharetra diam."
+  last-updated: "February 19th, 2024"
+
+- title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  status: Previous
+  figure: "/assets/images/example/pexels-magda-ehlers-2114014.jpg"
+  url: 'project-example-2.html'
+  alt-text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec dui nunc mattis enim. Arcu odio ut sem nulla pharetra diam."
+  short-desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec dui nunc mattis enim. Arcu odio ut sem nulla pharetra diam."
+  caption: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec dui nunc mattis enim. Arcu odio ut sem nulla pharetra diam."
+  last-updated: "December 19th, 2023"
+
+- title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  status: Previous
+  figure: "/assets/images/example/pexels-pixabay-433308.jpg"
+  url: 'project-example-3.html'
+  alt-text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec dui nunc mattis enim. Arcu odio ut sem nulla pharetra diam."
+  short-desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec dui nunc mattis enim. Arcu odio ut sem nulla pharetra diam."
+  caption: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec dui nunc mattis enim. Arcu odio ut sem nulla pharetra diam."
+  last-updated: "October 19th, 2023"
