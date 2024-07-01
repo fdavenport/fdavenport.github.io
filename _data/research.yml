@@ -21,14 +21,16 @@
   caption: "A small stream fed by snowmelt."
   last-updated: "July 1st, 2024"
 
-- title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+# Flood image from USEPA Environmental-Protection-Agency on Wikipedia: https://en.wikipedia.org/wiki/Flood#/media/File:Greeley,_CO,_September_19,_2013_(12441526333).jpg
+- title: "Understanding Changes in Global Extreme Precipitation Using Machine Learning"
   status: Ongoing
-  figure: "/assets/images/example/pexels-magda-ehlers-2114014.jpg"
-  url: 'project-example-2.html'
-  alt-text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec dui nunc mattis enim. Arcu odio ut sem nulla pharetra diam."
-  short-desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec dui nunc mattis enim. Arcu odio ut sem nulla pharetra diam."
-  caption: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec dui nunc mattis enim. Arcu odio ut sem nulla pharetra diam."
-  last-updated: "December 19th, 2023"
+  figure: "/assets/images/research/nkeeney-ml-extreme-precip/greeley_flood_2013.jpg"
+  url: 'nkeeney-ml-extreme-precip'
+  alt-text: ""
+  short-desc: "Flooding and extreme precipitation events are becoming more intense and frequent due to climate change, with wide ranging impacts across the globe. However, precipitation estimates from climate model projections are subject to large uncertainties, particularly in regards to extreme values, presenting challenges for understanding how extreme precipitation events will change in a warming world. 
+  Using climate model output and satellite observations, we train a series of convolutional neural networks to understand the underlying physical mechanisms contributing to extreme precipitation in different regions around the globe."
+  caption: "Flooding in Greeley, Colorado (30 miles east of Fort Collins) in September, 2013."
+  last-updated: "June 28, 2024"
 
 - title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
   status: Ongoing
