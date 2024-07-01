@@ -12,23 +12,24 @@
 # - title: Nothing # This is a placeholder. Comment it out when content is added below, but do not change it.
 
 # ONGOING RESEARCH SECTION
-- title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+- title: "Evaluating the Drivers of Extreme Runoff"
   status: Ongoing
-  figure: "/assets/images/example/pexels-frank-cone-2226190.jpg"
-  url: 'project-example-1'
-  alt-text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec dui nunc mattis enim. Arcu odio ut sem nulla pharetra diam."
-  short-desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec dui nunc mattis enim. Arcu odio ut sem nulla pharetra diam."
-  caption: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec dui nunc mattis enim. Arcu odio ut sem nulla pharetra diam."
-  last-updated: "February 19th, 2024"
+  figure: "/assets/images/research/snow_melt_by_thesleepyrabbit.jpg"
+  url: 'evaluating-drivers-extreme-runoff'
+  alt-text: "A small stream fed by snowmelt. Attribution: https://www.deviantart.com/thesleepyrabbit/art/Snow-Melt-519165575"
+  short-desc: "Using machine learning and large datasets to determine universal thresholds in antecedent conditions leading to extreme runoff."
+  caption: "A small stream fed by snowmelt."
+  last-updated: "July 1st, 2024"
 
-- title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+# Flood image from USEPA Environmental-Protection-Agency on Wikipedia: https://en.wikipedia.org/wiki/Flood#/media/File:Greeley,_CO,_September_19,_2013_(12441526333).jpg
+- title: "Understanding Changes in Global Extreme Precipitation Using Machine Learning"
   status: Ongoing
-  figure: "/assets/images/example/pexels-magda-ehlers-2114014.jpg"
-  url: 'project-example-2.html'
-  alt-text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec dui nunc mattis enim. Arcu odio ut sem nulla pharetra diam."
-  short-desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec dui nunc mattis enim. Arcu odio ut sem nulla pharetra diam."
-  caption: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec dui nunc mattis enim. Arcu odio ut sem nulla pharetra diam."
-  last-updated: "December 19th, 2023"
+  figure: "/assets/images/research/nkeeney-ml-extreme-precip/greeley_flood_2013.jpg"
+  url: 'nkeeney-ml-extreme-precip'
+  alt-text: ""
+  short-desc: "Using climate model output and satellite observations, we train a series of convolutional neural networks to understand the underlying physical mechanisms contributing to extreme precipitation in different regions around the globe."
+  caption: "Flooding in Greeley, Colorado (30 miles east of Fort Collins) in September, 2013."
+  last-updated: "June 28, 2024"
 
 - title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
   status: Ongoing
