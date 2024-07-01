@@ -40,56 +40,20 @@
   last-updated: "October 19th, 2023"
 
 # PREVIOUS RESEARCH SECTION
-- title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+- title: "Estimating economic costs of extreme precipitation and flooding"
   status: Previous
-  figure: "/assets/images/example/pexels-frank-cone-2226190.jpg"
-  url: 'project-example-1.html'
+  figure: "/assets/images/research/yuba_flood_2017.jpg"
+  url: 'flood-damages.html'
   alt-text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec dui nunc mattis enim. Arcu odio ut sem nulla pharetra diam."
-  short-desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec dui nunc mattis enim. Arcu odio ut sem nulla pharetra diam."
-  caption: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec dui nunc mattis enim. Arcu odio ut sem nulla pharetra diam."
-  last-updated: "February 19th, 2024"
+  short-desc: ""
+  caption: ""
+  last-updated: ""
 
-- title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+- title: "Snowmelt-driven vs. rain-driven flooding in the Western U.S."
   status: Previous
-  figure: "/assets/images/example/pexels-magda-ehlers-2114014.jpg"
-  url: 'project-example-2.html'
+  figure: "/assets/images/research/snowy_mountains.jpg"
+  url: 'rain-snow-flooding.html'
   alt-text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec dui nunc mattis enim. Arcu odio ut sem nulla pharetra diam."
-  short-desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec dui nunc mattis enim. Arcu odio ut sem nulla pharetra diam."
-  caption: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec dui nunc mattis enim. Arcu odio ut sem nulla pharetra diam."
-  last-updated: "December 19th, 2023"
-
-- title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-  status: Previous
-  figure: "/assets/images/example/pexels-pixabay-433308.jpg"
-  url: 'project-example-3.html'
-  alt-text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec dui nunc mattis enim. Arcu odio ut sem nulla pharetra diam."
-  short-desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec dui nunc mattis enim. Arcu odio ut sem nulla pharetra diam."
-  caption: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec dui nunc mattis enim. Arcu odio ut sem nulla pharetra diam."
-  last-updated: "October 19th, 2023"
-
-- title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-  status: Previous
-  figure: "/assets/images/example/pexels-frank-cone-2226190.jpg"
-  url: 'project-example-1.html'
-  alt-text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec dui nunc mattis enim. Arcu odio ut sem nulla pharetra diam."
-  short-desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec dui nunc mattis enim. Arcu odio ut sem nulla pharetra diam."
-  caption: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec dui nunc mattis enim. Arcu odio ut sem nulla pharetra diam."
-  last-updated: "February 19th, 2024"
-
-- title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-  status: Previous
-  figure: "/assets/images/example/pexels-magda-ehlers-2114014.jpg"
-  url: 'project-example-2.html'
-  alt-text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec dui nunc mattis enim. Arcu odio ut sem nulla pharetra diam."
-  short-desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec dui nunc mattis enim. Arcu odio ut sem nulla pharetra diam."
-  caption: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec dui nunc mattis enim. Arcu odio ut sem nulla pharetra diam."
-  last-updated: "December 19th, 2023"
-
-- title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-  status: Previous
-  figure: "/assets/images/example/pexels-pixabay-433308.jpg"
-  url: 'project-example-3.html'
-  alt-text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec dui nunc mattis enim. Arcu odio ut sem nulla pharetra diam."
-  short-desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec dui nunc mattis enim. Arcu odio ut sem nulla pharetra diam."
-  caption: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec dui nunc mattis enim. Arcu odio ut sem nulla pharetra diam."
-  last-updated: "October 19th, 2023"
+  short-desc: ""
+  caption: ""
+  last-updated: ""
