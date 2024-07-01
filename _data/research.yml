@@ -27,8 +27,7 @@
   figure: "/assets/images/research/nkeeney-ml-extreme-precip/greeley_flood_2013.jpg"
   url: 'nkeeney-ml-extreme-precip'
   alt-text: ""
-  short-desc: "Flooding and extreme precipitation events are becoming more intense and frequent due to climate change, with wide ranging impacts across the globe. However, precipitation estimates from climate model projections are subject to large uncertainties, particularly in regards to extreme values, presenting challenges for understanding how extreme precipitation events will change in a warming world. 
-  Using climate model output and satellite observations, we train a series of convolutional neural networks to understand the underlying physical mechanisms contributing to extreme precipitation in different regions around the globe."
+  short-desc: "Using climate model output and satellite observations, we train a series of convolutional neural networks to understand the underlying physical mechanisms contributing to extreme precipitation in different regions around the globe."
   caption: "Flooding in Greeley, Colorado (30 miles east of Fort Collins) in September, 2013."
   last-updated: "June 28, 2024"
 
