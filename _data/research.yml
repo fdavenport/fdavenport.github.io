@@ -12,14 +12,14 @@
 # - title: Nothing # This is a placeholder. Comment it out when content is added below, but do not change it.
 
 # ONGOING RESEARCH SECTION
-- title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+- title: "Evaluating the Drivers of Extreme Runoff"
   status: Ongoing
-  figure: "/assets/images/example/pexels-frank-cone-2226190.jpg"
-  url: 'project-example-1'
-  alt-text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec dui nunc mattis enim. Arcu odio ut sem nulla pharetra diam."
-  short-desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec dui nunc mattis enim. Arcu odio ut sem nulla pharetra diam."
-  caption: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec dui nunc mattis enim. Arcu odio ut sem nulla pharetra diam."
-  last-updated: "February 19th, 2024"
+  figure: "/assets/images/research/snow_melt_by_thesleepyrabbit.jpg"
+  url: 'evaluating-drivers-extreme-runoff'
+  alt-text: "A small stream fed by snowmelt. Attribution: https://www.deviantart.com/thesleepyrabbit/art/Snow-Melt-519165575"
+  short-desc: "Using machine learning and large datasets to determine universal thresholds in antecedent conditions leading to extreme runoff."
+  caption: "A small stream fed by snowmelt."
+  last-updated: "July 1st, 2024"
 
 - title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
   status: Ongoing
