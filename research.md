@@ -48,7 +48,7 @@ excerpt: ""
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="card mb-3 box-shadow">
                         <a href="{{ project.url }}" class="stretched-link">
-                            <img src="{{ project.figure }}" class="card-img-top" alt="{{ project.alt-text}}">
+                            <img src="{{ project.figure }}" class="card-img-top" alt="{{ project.alt-text}}" style="width: 100%; height: 12vw; object-fit: cover;">
                         </a>
                         <div class="card-body">
                             <p class="card-text research-text">{{ project.title }}</p>
