@@ -18,7 +18,7 @@ excerpt: ""
                         <div class="row g-0">
                             <div class="col-md-4">
                                 <a href="{{ project.url }}" class="stretched-link">
-                                    <img src="{{ project.figure }}" class="img-fluid img-research" alt="{{ project.alt-text }}">
+                                    <img src="{{ project.figure }}" class="img-fluid img-research" alt="{{ project.alt-text }}" style="width: 100%; height: 15vw; object-fit: cover;">
                                 </a>
                             </div>
                             <div class="col-md-8">
