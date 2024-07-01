@@ -35,7 +35,7 @@ excerpt: ""
     <div class="col">
         <div class="border border-1 p-1">
             <img src="/assets/images/research/nkeeney-ml-extreme-precip/model_schematic.jpg" width="500px">
-            <p class="m-0 p-0"><small class="m-0 p-0">Inputs and outputs to our Convolutional Neural Network.</small></p>
+            <p style="line-height: normal"><small class="m-0 p-0">Inputs and outputs to our Convolutional Neural Network.</small></p>
         </div>
     </div>
     <div class="col">
