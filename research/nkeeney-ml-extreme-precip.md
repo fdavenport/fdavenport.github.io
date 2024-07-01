@@ -65,3 +65,14 @@ excerpt: ""
         </div>
     </div>
 </div>
+
+<div class="row">
+    <div class="col">
+        <p style="line-height: normal" class="m-0 pb-1">
+            <b>Related Publications</b>
+        </p>
+        <p style="line-height: normal" class="m-0 pb-1"><small>Davenport, F. V., & Diffenbaugh, N. S. (2021). Using Machine Learning to Analyze Physical Causes of Climate Change: A Case Study of U.S. Midwest Extreme Precipitation. <em>Geophysical Research Letters</em>, 48(15), e2021GL093787. https://doi.org/10.1029/2021GL093787</small></p>
+    </div>
+</div>
+
+<small class="float-end"><a href="../">Back to Research Projects</a></small>
