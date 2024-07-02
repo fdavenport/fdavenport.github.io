@@ -47,7 +47,7 @@ excerpt: ""
             <small>Global discharge observations from the <a href="https://swot.jpl.nasa.gov/">Surface Water and Ocean Topography (SWOT)</a> mission present a new opportunity to understand hydroclimatic extremes at a global scale. In addition, a suite of emerging data-driven methods makes it increasingly possible to extract valuable insights from large hydrologic datasets. This project seeks to improve global-scale process understanding of the response of hydroclimatic extremes to changes in underlying hydroclimatic drivers by combining SWOT river discharge estimates with emerging data-driven approaches in hydrology.</small>
         </p>
         <p style="line-height: normal" class="m-0 pb-1">
-            <b>How are Hydroclimatic Extremes Responding to Climate Change?</b>
+            <b>How are hydroclimatic extremes responding to climate change?</b>
         </p>
         <p style="line-height: normal" class="m-0 pb-1">
             <small>Despite gaps in our understanding of how hydroclimatic extremes will respond to climate change, we have more confidence that many underlying hydroclimatic drivers are changing. For example, with increasing atmospheric temperature, the saturation vapor pressure of the atmosphere increases, leading to approximately a 7% increase in the moisture holding capacity of the atmosphere for every 1°C increase in atmospheric temperature. This can increase the availability of moisture during storm events, resulting in more intense extreme precipitation.</small>
@@ -59,7 +59,7 @@ excerpt: ""
             <small>A key unanswered question in hydrologic science is how simultaneous, complex climate changes will collectively affect hydroclimatic extremes in different regions. Understanding these interactions is critical for improving climate risk management and adaptation strategies.</small>
         </p>
         <p style="line-height: normal" class="m-0 pb-1">
-            <b>Can Access to Massive Datasets Improve Our Physical Understanding of Hydrology?</b>
+            <b>Can access to massive datasets improve our physical understanding of hydrology?</b>
         </p>
         <p style="line-height: normal" class="m-0 pb-1">
             <small>The integration of SWOT observations with advanced data-driven methods, such as machine learning and panel regression models, provides a unique opportunity to improve our understanding of hydrological processes. These methods allow for the analysis of large-scale hydrologic datasets, uncovering patterns and relationships that traditional models might miss. By leveraging these datasets, we can enhance our ability to predict and manage hydroclimatic extremes, ultimately contributing to more effective and informed water resource management and policy decisions.</small>
