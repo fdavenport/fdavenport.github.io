@@ -1,3 +1,10 @@
+- authors: <b>Davenport, F. V.</b>, E. A. Barnes, and E. M. Gordon
+  title: "Combining Neural Networks and CMIP6 Simulations to Learn Windows of Opportunity for Skillful Prediction of Multiyear Sea Surface Temperature Variability"
+  year: 2024
+  journal: Geophysical Research Letters
+  DOI: https://doi.org/10.1029/2023GL108099
+  pdf: Davenport_etal_2024.pdf
+
 - authors: Gordon, E. M., E. A. Barnes, and <b>F. V. Davenport</b>
   title: "Separating internal and forced contributions to near term SST predictability in the CESM2-LE"
   year: 2023
