@@ -1,7 +1,7 @@
 ---
 title: Publications
 feature_text: 
-feature_image: "/assets/bangladesh.jpg"
+feature_image: "/assets/images/feature/bangladesh.jpg"
 excerpt: ""
 ---
 

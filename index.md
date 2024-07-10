@@ -1,7 +1,7 @@
 ---
 title: Davenport Research Group @ CSU
 feature_text: |
-feature_image: "/assets/lakepowell_crop.jpg"
+feature_image: "/assets/images/feature/lakepowell_crop.jpg"
 excerpt: ""
 ---
 
