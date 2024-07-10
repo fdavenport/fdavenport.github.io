@@ -7,6 +7,20 @@ excerpt: ""
 ---
 
 <div class="row">
+    <!-- Funding section on the left -->
+    <div class="col-md-4">
+        <p style="line-height: normal" class="m-0 pb-1">
+            <b>Project Members</b><br>
+            <small>Nicole Keeney, Frances Davenport</small>
+        </p>
+        <p style="line-height: normal" class="m-0 pb-1">
+            <b>Study Areas</b><br>
+            <small>Global</small>
+        </p>
+    </div>
+</div>
+
+<div class="row">
     <div class="col">
         <p style="line-height: normal"><small>Climate change is intensifying the global water cycle. The frequency and severity of hydroclimatic extremes, including flooding, extreme precipitation, and drought, has increased in recent history and is projected to continue increasing due to climate change. However, climate models struggle to characterize precipitation, especially extreme precipitation, posing challenges for understanding how, where, and why flooding and severe precipitation are expected to change in the coming decades.How can we study future flooding and severe precipitation in a warming world if climate models– our main tool for understanding future climate change– aren't able to accurately model precipitation extremes? Our research project approaches this problem using a bit of cleverness, a lot of data, and the help of artificial intelligence.</small></p>
         <p style="line-height: normal"><small>One thing climate models do quite well is represent large-scale atmospheric circulation patterns, i.e. changing pressure levels that create weather at the Earth’s surface and transfer thermal energy in the atmosphere. Atmospheric circulation is the driving force behind weather systems that cause severe precipitation and flooding. Our research approach involves leveraging this relationship between atmospheric circulation and extreme precipitation to study extreme precipitation in a warming world. The basic idea is as follows: First, we train a model to learn the dominant atmospheric circulation patterns that have historically driven extreme precipitation. Then, we use the relationships learned by the model to understand how extreme precipitation will change in the future using estimates of atmospheric circulation patterns from climate model projections. Using this method, we bypass the need to look at climate model projections of precipitation– avoiding the uncertainties that have historically blocked a robust understanding of this topic. </small></p>

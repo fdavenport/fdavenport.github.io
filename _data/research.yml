@@ -32,20 +32,20 @@
   last-updated: "June 28, 2024"
 
 # PREVIOUS RESEARCH SECTION
-- title: "Estimating economic costs of extreme precipitation and flooding"
+- title: "Economic costs of extreme precipitation and flooding under climate change"
   status: Previous
-  figure: "/assets/images/research/yuba_flood_2017.jpg"
+  figure: "/assets/images/research/flood_damage.jpg"
   url: 'flood-damages'
-  alt-text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec dui nunc mattis enim. Arcu odio ut sem nulla pharetra diam."
+  alt-text: "image of flooded street"
   short-desc: ""
   caption: ""
   last-updated: ""
 
-- title: "Snowmelt-driven vs. rain-driven flooding in the Western U.S."
+- title: "Snowmelt-driven vs. rain-driven flooding in the Western United States"
   status: Previous
-  figure: "/assets/images/research/snowy_mountains.jpg"
+  figure: "/assets/images/research/snow_rain_flood.jpg"
   url: 'rain-snow-flooding'
-  alt-text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec dui nunc mattis enim. Arcu odio ut sem nulla pharetra diam."
+  alt-text: "image of flooded river raging under an arched bridge"
   short-desc: ""
   caption: ""
   last-updated: ""
