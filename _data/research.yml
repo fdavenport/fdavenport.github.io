@@ -12,14 +12,14 @@
 # - title: Nothing # This is a placeholder. Comment it out when content is added below, but do not change it.
 
 # ONGOING RESEARCH SECTION
-- title: "Evaluating the Drivers of Extreme Runoff"
+- title: "Evaluating the Drivers of Extreme Runoff using Satellite-derived River Discharge Estimates"
   status: Ongoing
-  figure: "/assets/images/research/snow_melt_by_thesleepyrabbit.jpg"
+  figure: "/assets/images/research/flooding_near_hamburg_iowa_nasa.jpg"
   url: 'evaluating-drivers-extreme-runoff'
-  alt-text: "A small stream fed by snowmelt. Attribution: https://www.deviantart.com/thesleepyrabbit/art/Snow-Melt-519165575"
-  short-desc: "Using machine learning and large datasets to determine universal thresholds in antecedent conditions leading to extreme runoff."
-  caption: "A small stream fed by snowmelt."
-  last-updated: "July 1st, 2024"
+  alt-text: "Flooding near Hamburg, Iowa. Attribution: https://www.flickr.com/photos/gsfc/5955698062"
+  short-desc: "Using SWOT observations and data-driven models to improve process understanding of hydroclimatic extremes"
+  caption: "Flooding near Hamburg, Iowa, acquired July 17, 2011 by the Advanced Land Imager (ALI) on NASA’s Earth Observing-1 (EO-1) satellite."
+  last-updated: "July 2nd, 2024"
 
 # Flood image from USEPA Environmental-Protection-Agency on Wikipedia: https://en.wikipedia.org/wiki/Flood#/media/File:Greeley,_CO,_September_19,_2013_(12441526333).jpg
 - title: "Understanding Changes in Global Extreme Precipitation Using Machine Learning"
@@ -30,15 +30,6 @@
   short-desc: "Using climate model output and satellite observations, we train a series of convolutional neural networks to understand the underlying physical mechanisms contributing to extreme precipitation in different regions around the globe."
   caption: "Flooding in Greeley, Colorado (30 miles east of Fort Collins) in September, 2013."
   last-updated: "June 28, 2024"
-
-- title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-  status: Ongoing
-  figure: "/assets/images/example/pexels-pixabay-433308.jpg"
-  url: 'project-example-3.html'
-  alt-text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec dui nunc mattis enim. Arcu odio ut sem nulla pharetra diam."
-  short-desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec dui nunc mattis enim. Arcu odio ut sem nulla pharetra diam."
-  caption: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec dui nunc mattis enim. Arcu odio ut sem nulla pharetra diam."
-  last-updated: "October 19th, 2023"
 
 # PREVIOUS RESEARCH SECTION
 - title: "Estimating economic costs of extreme precipitation and flooding"
