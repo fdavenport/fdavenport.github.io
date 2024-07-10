@@ -8,6 +8,7 @@ excerpt: ""
 Code related to our research is available on [GitHub](https://github.com/fdavenport), and is linked below.
 
 ##### **Publication-related code:**
+* [Multiyear SST prediction with CNNs](https://github.com/fdavenport/multiyear-sst-prediction-with-cnns): supporting code for Davenport et al. (2024). The repo includes Jupyter notebooks to train neural networks and analyze window of opportunity prediction skill. The code is written in Python, uses the [Keras](https://keras.io/) and [TensorFlow](https://www.tensorflow.org/) libraries to create/train the neural network, and uses the [Xarray](https://xarray.dev/) package to analyze climate data.  
 
 * [GRL2021](https://github.com/fdavenport/GRL2021): supporting code for Davenport and Diffenbaugh (2021). The repo includes Jupyter notebooks to recreate the analysis and figures from the paper, including training the convolutional neural network and performing trend analysis. The code is written in Python, uses the [Keras](https://keras.io/) and [TensorFlow](https://www.tensorflow.org/) libraries to create/train the neural network, and uses the [Xarray](https://xarray.dev/) package to analyze climate data.  
 
