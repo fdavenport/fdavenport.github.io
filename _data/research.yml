@@ -44,7 +44,7 @@
 - title: "Estimating economic costs of extreme precipitation and flooding"
   status: Previous
   figure: "/assets/images/research/yuba_flood_2017.jpg"
-  url: 'flood-damages.html'
+  url: 'flood-damages'
   alt-text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec dui nunc mattis enim. Arcu odio ut sem nulla pharetra diam."
   short-desc: ""
   caption: ""
@@ -53,7 +53,7 @@
 - title: "Snowmelt-driven vs. rain-driven flooding in the Western U.S."
   status: Previous
   figure: "/assets/images/research/snowy_mountains.jpg"
-  url: 'rain-snow-flooding.html'
+  url: 'rain-snow-flooding'
   alt-text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec dui nunc mattis enim. Arcu odio ut sem nulla pharetra diam."
   short-desc: ""
   caption: ""
