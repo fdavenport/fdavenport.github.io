@@ -6,10 +6,9 @@ feature_image: "/assets/images/feature/earth.jpg"
 excerpt: ""
 ---
 
-<!-- add one bootstrap card for each research project -->
+<!-- ongoing research section -->
 <div class="row">
     <h4 class="mb-2">Ongoing Research</h4>
-    <!-- ongoing research section -->
     {% for project in site.data.research %}
         {% unless project.title == "Nothing" %}
             {% if project.status == "Ongoing" %}
@@ -18,7 +17,7 @@ excerpt: ""
                         <div class="row g-0">
                             <div class="col-md-4">
                                 <a href="{{ project.url }}" class="stretched-link">
-                                    <img src="{{ project.figure }}" class="img-fluid img-research" alt="{{ project.alt-text }}" style="width: 100%; height: 15vw; object-fit: cover;">
+                                    <img src="{{ project.figure }}" class="img-fluid img-research" alt="{{ project.alt-text }}" style="width: 100%; aspect-ratio: 16/9; object-fit: cover;">
                                 </a>
                             </div>
                             <div class="col-md-8">
@@ -37,9 +36,9 @@ excerpt: ""
             <h5>Coming soon!</h5>
         {% endunless %}
     {% endfor %}
-    <!-- previous research section -->
 </div>
 <hr>
+<!-- previous research section -->
 <div class="row">
     <h4 class="mb-2">Previous Research</h4>
     {% for project in site.data.research %}
@@ -48,7 +47,7 @@ excerpt: ""
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="card mb-3 box-shadow">
                         <a href="{{ project.url }}" class="stretched-link">
-                            <img src="{{ project.figure }}" class="card-img-top" alt="{{ project.alt-text}}" style="width: 100%; height: 12vw; object-fit: cover;">
+                            <img src="{{ project.figure }}" class="card-img-top" alt="{{ project.alt-text}}" style="width: 100%; aspect-ratio: 4/3; object-fit: cover;">
                         </a>
                         <div class="card-body">
                             <p class="card-text research-text">{{ project.title }}</p>
