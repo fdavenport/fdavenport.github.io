@@ -15,7 +15,7 @@ excerpt: ""
         </p>
         <p style="line-height: normal" class="m-0 pb-1">
             <b>Study Areas</b><br>
-            <small>CONUS, Global</small>
+            <small>Western U.S., Colorado</small>
         </p>
         <p style="line-height: normal" class="m-0 pb-1">
             <b>Funding Source</b><br>
