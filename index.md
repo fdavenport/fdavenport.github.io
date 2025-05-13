@@ -5,7 +5,7 @@ feature_image: "/assets/images/feature/lakepowell_crop.jpg"
 excerpt: ""
 ---
 
-Welcome! Our group explores research questions related to global climate and the hydrologic cycle, extreme climate events, and how climate change impacts human and natural systems. We use global climate models, observational data from in-situ monitoring networks and remote sensing, and computational analysis tools, including deep learning. Read more about research [here](/research/).
+Welcome! Our group explores research questions related to global climate and the hydrologic cycle, extreme climate events, and how climate change impacts human and natural systems. We use global climate models, observational data from in-situ monitoring networks and remote sensing, and computational analysis tools, including deep learning. Read more about our research [here](/research/).
 
 The group is led by Frances Davenport, an Assistant Professor in the [Department of Civil and Environmental Engineering](https://www.engr.colostate.edu/ce/) at Colorado State University. 
 
