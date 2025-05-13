@@ -2,7 +2,7 @@
 layout: page
 title: Using data-driven models to improve forecasts of growing-season water supply in Colorado
 feature_text: 
-feature_image: "/assets/images/feature/earth.jpg"
+feature_image: "/assets/images/feature/mountains_winter.jpg"
 excerpt: ""
 ---
 
