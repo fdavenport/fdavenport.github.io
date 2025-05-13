@@ -14,25 +14,21 @@ excerpt: ""
 		
 		{% if paper.year %}
         <b>({{ paper.year }})</b>
-		{% endif %}
-		.
-		{% if paper.DOI %}
- <a href="{{ paper.DOI }}" target='_blank'>{{ paper.title }}</a>,
- {% else %}
-        {{ paper.title }},
-		{% endif %}
+		{% endif %}.
+        
+        <i>{{ paper.title }}</i>,
 		
-        <i>{{ paper.journal }}</i>,
+        <b>{{ paper.journal }}</b>,
 
         	{% if paper.status %}
         <i>({{ paper.status }})</i>
 		{% endif %}
 		
-	    {{ paper.DOI }}
+	     <a href="{{ paper.DOI }}" target='_blank'>{{ paper.DOI }}</a>
        
         {% if paper.pdf %}
               |   <a  href="../assets/paper_pdfs/{{ paper.pdf }}" target='_blank'>PDF</a>
-     {% endif %}
+        {% endif %}
                       <br>
 		      
     {% if paper.press %}

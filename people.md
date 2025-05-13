@@ -15,7 +15,7 @@ excerpt: ""
             </div>
             <div class="col-md-9">
                 <div class="card-body profile-body">
-                    <p class="card-text profile-text" style="line-height: normal"><b>{{ person.title }} {{ person.name }} ({{ person.pronouns }})</b> {{ person.profile }}</p>
+                    <p class="card-text profile-text" style="line-height: normal"><b>{{ person.title }} {{ person.name }} {% if person.pronouns %}({{ person.pronouns }}) {% endif %}</b> {{ person.profile }}</p>
                 </div>
             </div>
         </div>

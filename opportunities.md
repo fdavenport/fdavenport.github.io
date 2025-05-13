@@ -7,11 +7,11 @@ excerpt: ""
 
 #### Graduate Students
 
-I may have funding for additional students to join the group in Fall 2024. Students with funding through a fellowship can also apply to join the group. 
+I do not have currently have funding for new students to join the group. I may be able to accept students with external fellowship funding. If you are interested in applying for a fellowship with Frances as your advisor, please reach out to her via email. 
 
-Students with a background in engineering, atmospheric or earth sciences, physics, or other related fields are especially encouraged to apply. Our research group uses computational methods, so previous experience with coding is beneficial but not a requirement. Interested students can contact Frances via email (f.davenport@colostate.edu) with a brief description of their background and interests for graduate school. 
+Our group is typically a good fit for tudents with a background in engineering, atmospheric or earth sciences, physics, or other related fields. Our research group uses computational methods, so previous experience with coding is highly beneficial. Interested students can contact Frances via email (f.davenport@colostate.edu) with a brief description of their background and interests for graduate school. 
 
-Successful applicants will join the Civil and Environmental Engineering Department at Colorado State University. CEE has a strong graduate program in hydrology, with many faculty focused on water-related research. In addition, there are opportunities for coursework and/or collaborations across campus, including in the Warner College of Natural Resources, the Department of Atmospheric Science, and the College of Agricultural Sciences. 
+Graduate students in the group will join the Civil and Environmental Engineering Department at Colorado State University. CEE has a strong graduate program in hydrology, with many faculty focused on water-related research. In addition, there are opportunities for coursework and/or collaborations across campus, including in the Warner College of Natural Resources, the Department of Atmospheric Science, and the College of Agricultural Sciences. 
 
 #### Postdocs
 
