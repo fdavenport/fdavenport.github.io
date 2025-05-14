@@ -2,7 +2,7 @@
 layout: page
 title: Research Projects
 feature_text: 
-feature_image: "/assets/images/feature/earth.jpg"
+feature_image: "/assets/images/feature/earth2.jpg"
 excerpt: ""
 ---
 
