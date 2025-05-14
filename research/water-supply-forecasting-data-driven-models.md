@@ -47,7 +47,7 @@ excerpt: ""
             <small>Traditionally, water supply forecasting has relied on process-based hydrologic models. These models are grounded in first principles and simulate watershed behavior by explicitly representing physical processes. While valuable, they are often calibrated for individual, gauged watersheds and struggle to predict system responses to conditions outside the historical record—particularly those driven by climate change.</small>
         </p>
         <p style="line-height: normal" class="m-0 pb-1">
-            <small>In contrast, data-driven approaches like Long Short-Term Memory (LSTM) neural networks offer a promising alternative. LSTMs learn patterns directly from large datasets, allowing them to implicitly capture relationships between climate inputs and streamflow responses. These models have shown strong performance in both gauged and ungauged watersheds when tasked with either hindcasting (simulating hydrologic events that happened in the past) or forecasting (simulating how hydrologic events might unfold in the near future).</small>
+            <small>Data-driven approaches like Long Short-Term Memory (LSTM) neural networks offer a promising alternative. LSTMs learn patterns directly from large datasets, allowing them to implicitly capture relationships between climate inputs and streamflow responses. These models have shown strong performance in both gauged and ungauged watersheds when tasked with either hindcasting (simulating hydrologic events that happened in the past) or forecasting (simulating how hydrologic events might unfold in the near future).</small>
         </p>
         <p style="line-height: normal" class="m-0 pb-1">
             <small>Our project, <i>Using data-driven models to improve forecasts of growing-season water supply in Colorado under a changing climate</i>, is leveraging cutting-edge AI tools—specifically LSTM neural networks—to improve seasonal water supply forecasts. We are developing customized LSTM models trained on historical streamflow data from watersheds across the Western U.S., integrating key variables like precipitation, temperature, snow cover, soil moisture, and watershed characteristics.</small>
@@ -61,15 +61,6 @@ excerpt: ""
                 class="m-0 p-0">
             <p class="m-0 p-0" style="position: relative; z-index: 1;"><small class="m-0 p-0">Source: <a href='https://www.climatecentral.org/graphic/water-in-the-west?graphicSet=Snowpack%20melting%20earlier'>Climate Central</a></small></p>
         </div>
-        <p style="line-height: normal" class="m-0 pb-1">
-            <b>How well can LSTM models perform under climate extremes?</b>
-        </p>
-        <p style="line-height: normal" class="m-0 pb-1">
-            <small>A key focus of our work is rigorously benchmarking LSTM model performance. We will compare their forecasts against observed data, existing operational systems (like the SAC-SMA model), and alternative machine learning methods such as Random Forests. Special attention will be given to evaluating skill under extreme conditions—very warm, wet, or dry years—which are becoming more common in Colorado’s changing climate. Understanding model reliability during these critical periods will help assess the real-world utility of LSTM forecasts.</small>
-        </p>
-        <p style="line-height: normal" class="m-0 pb-1">
-            <small>In addition to LSTM development, our project explores a second critical avenue: the role of moisture recycling in growing season precipitation. Spring and summer precipitation forecast error remains a major limitation for water supply prediction. By leveraging recent advances in subseasonal-to-seasonal forecasting and analyzing historical atmospheric moisture recycling patterns—including local and remote evapotranspiration sources—we will investigate whether this information can improve predictions.</small>
-        </p>
         <p style="line-height: normal" class="m-0 pb-1">
             <b>Potential impact</b>
         </p>
