@@ -1,3 +1,15 @@
+- authors: Orihuela-Pinto, B., P. W. Keys,<b> F. V. Davenport</b>, and E. A. Barnes
+  title: "Uncovering patterns of converging human-induced pressure on global lands"
+  year: 2025
+  journal: "Machine Learning: Earth"
+  DOI: https://doi.org/10.1088/3049-4753/ae2278
+
+- authors: Kalashnikov, D. A., J. T. Abatzoglou, <b>F. V. Davenport</b>, Z. M. Labe, P. C. Loikith, D. Touma, and D. Singh
+  title: "Projections of lightning-ignited wildfire risk in the western United States"
+  year: 2025
+  journal: "Earth's Future" 
+  DOI: https://doi.org/10.1029/2025EF006108
+
 - authors: Kalashnikov, D. A., <b>F. V. Davenport</b>, Z. M. Labe, P. C. Loikith, J. T. Abatzoglou, and D. Singh
   title: "Predicting Cloud‐To‐Ground Lightning in the Western United States From the Large‐Scale Environment Using Explainable Neural Networks"
   year: 2024
