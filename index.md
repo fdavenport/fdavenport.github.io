@@ -14,10 +14,7 @@ In our research, we use observational data from in-situ monitoring networks and 
 The group is led by Frances Davenport, an Assistant Professor in the [Department of Civil and Environmental Engineering](https://www.engr.colostate.edu/ce/) at Colorado State University. 
 
 #### Recent News
-* Mike Talbot and Frances Davenport attended the AGU fall meeting in Washington, D.C. in December.
-  ![Mike Talbot and Frances Davenport with their poster at the AGU fall meeting](/assets/images/news/agu2024.jpg)
-* Mike Talbot was selected for the Walter Scott Jr. College of Engineering Excellence in Research Award for his presentation at the CSU Graduate Student Showcase in November. Congrats Mike!
-* Fall 2024 new group member! Alexandria Rodgers is a new PhD student co-advised with Antonio Meira Neto. Read more about Al [here](/people/). 
-* Fall 2024 new group member! Bill Doan is a PhD student working on climate change impacts on transboundary rivers. Read more about Bill [here](/people/). 
+{% assign news = site.data.news | reverse | sort: "date" | reverse %}
+{% include news-list.html items=news limit=5 %}
 
-
+[See all news](/news/)

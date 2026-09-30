@@ -57,7 +57,18 @@ hr {
 }
 
 
-// Page sections (People and Research pages)
+// News list (home page and News page): muted month label before each item
+.news-list__date {
+  color: $mutedColour;
+  font-weight: map-get($bodytype, bold);
+
+  &::after {
+    content: " \2014 ";
+  }
+}
+
+
+// Page sections (People, Research, and News pages)
 .typeset .page-section > h4 {
   margin-bottom: .5rem;
 }

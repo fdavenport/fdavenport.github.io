@@ -32,11 +32,8 @@ Make your changes on the `dev` branch or a new branch. When you are happy with t
 * When someone leaves the group, change `status: current` to `status: alumni` in their file and add the years they were in the group (e.g. `years: "2023–2025"`). They move to the Alumni section, which shows only their photo, name, position, and years.
 
 **To add a news item:**
-* Add a bullet to the "Recent News" list in `index.md`, newest first. To include a photo, put it on the line right after the bullet's text, indented two spaces:
-  ```markdown
-  * The group presented at the AGU fall meeting.
-    ![Group members in front of their poster](/assets/images/news/agu2024.jpg)
-  ```
+* Add an entry at the top of `_data/news.yml`. The instructions at the top of that file show the format: a date, the text (Markdown is fine), and an optional photo.
+* The home page shows the 5 newest items automatically, and the full history stays on the News page (`/news/`). Nothing needs to be deleted when news gets old.
 
 **To add a research project:**
 * Copy `templates/research-project.md` into the `_research/` folder and rename it to a short, lowercase, hyphenated name (e.g. `snow-drought.md`). The file name becomes the page address (`/research/snow-drought/`).
