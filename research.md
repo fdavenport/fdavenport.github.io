@@ -6,55 +6,39 @@ feature_image: "/assets/images/feature/earth2.jpg"
 excerpt: ""
 ---
 
+{%- comment -%} Cards are built from the front matter of each project file in _research/. {%- endcomment -%}
+{%- assign ongoing = site.research | where: "status", "ongoing" | sort: "last_updated", "first" | reverse -%}
+{%- assign previous = site.research | where: "status", "previous" | sort: "title" -%}
+
 <!-- ongoing research section -->
-<div class="row">
-    <h4 class="mb-2">Ongoing Research</h4>
-    {% for project in site.data.research %}
-        {% unless project.title == "Nothing" %}
-            {% if project.status == "Ongoing" %}
-                <div class="col-12">
-                    <div class="card mb-3 box-shadow">
-                        <div class="row g-0">
-                            <div class="col-md-4">
-                                <a href="{{ project.url }}" class="stretched-link">
-                                    <img src="{{ project.figure }}" class="img-fluid img-research" alt="{{ project.alt-text }}" style="width: 100%; aspect-ratio: 16/9; object-fit: cover;">
-                                </a>
-                            </div>
-                            <div class="col-md-8">
-                                <div class="card-body research-body">
-                                    <h5 class="card-title pt-0 pb-3" style="line-height: normal">{{ project.title }}</h5>
-                                    <p class="card-text" style="line-height: normal">{{ project.short-desc }}</p>
-                                    <p class="card-text card-text-bottom"><small class="text-muted">Last Updated: {{ project.last-updated }}</small></p>
-                                </div>
-                            </div>
-                        <span class="card-footer text-wrap">Image: {{ project.caption }}</span>
-                        </div>
-                    </div>
-                </div>
-            {% endif %}            
-        {% else %}
-            <h5>Coming soon!</h5>
-        {% endunless %}
+<section class="page-section">
+    <h4>Ongoing Research</h4>
+    {% for project in ongoing %}
+        <article class="card card--project">
+            <img src="{{ project.thumbnail }}" class="card__image" alt="{{ project.thumbnail_alt }}">
+            <div class="card__body">
+                <h5 class="card__title"><a href="{{ project.url }}" class="card__link">{{ project.title }}</a></h5>
+                <p class="card__text">{{ project.summary }}</p>
+                {% if project.last_updated %}<p class="card__meta">Last Updated: {{ project.last_updated | date: "%B %-d, %Y" }}</p>{% endif %}
+            </div>
+            {% if project.thumbnail_caption %}<p class="card__footer">Image: {{ project.thumbnail_caption }}</p>{% endif %}
+        </article>
+    {% else %}
+        <h5>Coming soon!</h5>
     {% endfor %}
-</div>
+</section>
 <hr>
 <!-- previous research section -->
-<div class="row">
-    <h4 class="mb-2">Previous Research</h4>
-    {% for project in site.data.research %}
-        {% unless project.title == "Nothing" %}
-            {% if project.status == "Previous" %}
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="card mb-3 box-shadow">
-                        <a href="{{ project.url }}" class="stretched-link">
-                            <img src="{{ project.figure }}" class="card-img-top" alt="{{ project.alt-text}}" style="width: 100%; aspect-ratio: 4/3; object-fit: cover;">
-                        </a>
-                        <div class="card-body">
-                            <p class="card-text research-text">{{ project.title }}</p>
-                        </div>
-                    </div>                
-                </div>
-            {% endif %}            
-        {% endunless %}
+<section class="page-section">
+    <h4>Previous Research</h4>
+    <div class="card-grid">
+    {% for project in previous %}
+        <article class="card card--project-small">
+            <img src="{{ project.thumbnail }}" class="card__image" alt="{{ project.thumbnail_alt }}">
+            <div class="card__body">
+                <p class="card__text"><a href="{{ project.url }}" class="card__link">{{ project.title }}</a></p>
+            </div>
+        </article>
     {% endfor %}
-</div>
+    </div>
+</section>

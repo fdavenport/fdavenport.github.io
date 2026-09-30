@@ -1,57 +1,57 @@
-- authors: Orihuela-Pinto, B., P. W. Keys,<b> F. V. Davenport</b>, and E. A. Barnes
+- authors: "Orihuela-Pinto, B., P. W. Keys, **F. V. Davenport**, and E. A. Barnes"
   title: "Uncovering patterns of converging human-induced pressure on global lands"
   year: 2025
   journal: "Machine Learning: Earth"
   DOI: https://doi.org/10.1088/3049-4753/ae2278
 
-- authors: Kalashnikov, D. A., J. T. Abatzoglou, <b>F. V. Davenport</b>, Z. M. Labe, P. C. Loikith, D. Touma, and D. Singh
+- authors: "Kalashnikov, D. A., J. T. Abatzoglou, **F. V. Davenport**, Z. M. Labe, P. C. Loikith, D. Touma, and D. Singh"
   title: "Projections of lightning-ignited wildfire risk in the western United States"
   year: 2025
   journal: "Earth's Future" 
   DOI: https://doi.org/10.1029/2025EF006108
 
-- authors: Kalashnikov, D. A., <b>F. V. Davenport</b>, Z. M. Labe, P. C. Loikith, J. T. Abatzoglou, and D. Singh
+- authors: "Kalashnikov, D. A., **F. V. Davenport**, Z. M. Labe, P. C. Loikith, J. T. Abatzoglou, and D. Singh"
   title: "Predicting Cloud‐To‐Ground Lightning in the Western United States From the Large‐Scale Environment Using Explainable Neural Networks"
   year: 2024
   journal: "Journal of Geophysical Research: Atmospheres"
   DOI:  https://doi.org/10.1029/2024JD042147
   
-- authors: Trok, J. T., E. A. Barnes, <b>F. V. Davenport</b>, and N. S. Diffenbaugh
+- authors: "Trok, J. T., E. A. Barnes, **F. V. Davenport**, and N. S. Diffenbaugh"
   title: "Machine learning–based extreme event attribution"
   year: 2024
   journal: Science Advances
   DOI: https://doi.org/10.1126/sciadv.adl3242
   pdf: Trok_etal_2024.pdf
 
-- authors: <b>Davenport, F. V.</b>, E. A. Barnes, and E. M. Gordon
+- authors: "**Davenport, F. V.**, E. A. Barnes, and E. M. Gordon"
   title: "Combining Neural Networks and CMIP6 Simulations to Learn Windows of Opportunity for Skillful Prediction of Multiyear Sea Surface Temperature Variability"
   year: 2024
   journal: Geophysical Research Letters
   DOI: https://doi.org/10.1029/2023GL108099
   pdf: Davenport_etal_2024.pdf
 
-- authors: Gordon, E. M., E. A. Barnes, and <b>F. V. Davenport</b>
+- authors: "Gordon, E. M., E. A. Barnes, and **F. V. Davenport**"
   title: "Separating internal and forced contributions to near term SST predictability in the CESM2-LE"
   year: 2023
   journal: Environmental Research Letters
   DOI: https://doi.org/10.1088/1748-9326/acfdbc
   pdf: Gordon_etal_2023.pdf
 
-- authors: Trok, J. T., <b>F. V. Davenport</b>, E. A. Barnes and N. S. Diffenbaugh
+- authors: "Trok, J. T., **F. V. Davenport**, E. A. Barnes and N. S. Diffenbaugh"
   title: "Using Machine Learning with Partial Dependence Analysis to Investigate Coupling Between Soil Moisture and Near-surface Temperature"
   year: 2023
   journal: "Journal of Geophysical Research: Atmospheres"
   DOI: https://doi.org/10.1029/2022JD038365
   pdf: Trok_etal_2023.pdf
   
-- authors: Ly, A., <b>F. V. Davenport</b>, and N. S. Diffenbaugh
+- authors: "Ly, A., **F. V. Davenport**, and N. S. Diffenbaugh"
   title: "Exploring the Influence of Summer Temperature on Human Mobility During the COVID-19 Pandemic in the San Francisco Bay Area"
   year: 2023
   journal: GeoHealth
   DOI:  https://doi.org/10.1029/2022GH000772
   pdf: Ly_etal_2023.pdf
   
-- authors: Yu, G., D. B. Wright, and <b>F. V. Davenport</b>
+- authors: "Yu, G., D. B. Wright, and **F. V. Davenport**"
   title: "Diverse Physical Processes Drive Upper-Tail Flood Quantiles in the US Mountain West"
   year: 2022
   journal: Geophysical Research Letters
@@ -59,21 +59,21 @@
   press: 'press_Yu2022'
   pdf: Yu_etal_2022.pdf
   
-- authors: Diffenbaugh, N. S., and <b>F. V. Davenport</b>
+- authors: "Diffenbaugh, N. S., and **F. V. Davenport**"
   title: "On the impossibility of extreme event thresholds in the absence of global warming"
   year: 2021
   journal: Environmental Research Letters
   DOI: https://doi.org/10.1088/1748-9326/ac2f1a
   pdf: Diffenbaugh_Davenport_2021.pdf
   
-- authors: Johnston, E. C., <b>F. V. Davenport</b>, L. Wang, J. K. Caers, S. Muthukrishnan, M. Burke, and N. S. Diffenbaugh
+- authors: "Johnston, E. C., **F. V. Davenport**, L. Wang, J. K. Caers, S. Muthukrishnan, M. Burke, and N. S. Diffenbaugh"
   title: "Quantifying the effect of precipitation on landslide hazard in urbanized and non-urbanized areas"
   year: 2021
   journal: Geophysical Research Letters
   DOI: https://doi.org/10.1029/2021GL094038
   press: 'press_Johnston2021'
 
-- authors: <b>Davenport, F. V.</b>, and N. S. Diffenbaugh
+- authors: "**Davenport, F. V.**, and N. S. Diffenbaugh"
   title: "Using Machine Learning to Analyze Physical Causes of Climate Change: A Case Study of U.S. Midwest Extreme Precipitation"
   year: 2021
   journal: Geophysical Research Letters
@@ -81,7 +81,7 @@
   pdf: Davenport_Diffenbaugh_2021.pdf
   press: 'press_GRL2021'
 
-- authors: Diffenbaugh, N. S., <b>F. V. Davenport</b>, and M. Burke
+- authors: "Diffenbaugh, N. S., **F. V. Davenport**, and M. Burke"
   title: "Historical warming has increased U.S. crop insurance losses"
   year: 2021
   journal: Environmental Research Letters
@@ -89,14 +89,14 @@
   pdf: Diffenbaugh_etal_2021.pdf
   press: 'press_Diffenbaugh2021'
   
-- authors: Simpson, I. R., K. A. McKinnon, <b>F. V. Davenport</b>, M. Tingley, F. Lehner, A. Al Fahad, and D. Chen
+- authors: "Simpson, I. R., K. A. McKinnon, **F. V. Davenport**, M. Tingley, F. Lehner, A. Al Fahad, and D. Chen"
   title:  "Emergent constraints on the large scale atmospheric circulation and regional hydroclimate: do they still work in CMIP6 and how much can they actually constrain the future?"
   year: 2021
   journal: Journal of Climate
   DOI: https://doi.org/10.1175/JCLI-D-21-0055.1
   pdf: Simpson_etal_2021.pdf
   
-- authors: <b>Davenport, F. V.</b>, M. Burke, and N. S. Diffenbaugh
+- authors: "**Davenport, F. V.**, M. Burke, and N. S. Diffenbaugh"
   title: Contribution of historical precipitation change to US flood damages
   year: 2021
   journal: Proceedings of the National Academy of Sciences
@@ -106,7 +106,7 @@
   email:
   altmetric:
   
-- authors: <b>Davenport, F. V.</b>, J. E. Herrera-Estrada, M. Burke, and N. S. Diffenbaugh
+- authors: "**Davenport, F. V.**, J. E. Herrera-Estrada, M. Burke, and N. S. Diffenbaugh"
   title: Flood size increases nonlinearly across the western United States in response to lower snow‐precipitation ratios
   year: 2020
   journal: Water Resources Research

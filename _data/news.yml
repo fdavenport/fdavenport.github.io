@@ -1,0 +1,40 @@
+# Group news. The home page shows the 5 newest items; the News page (/news/)
+# shows everything, grouped by year. Items are sorted by date, so order here
+# doesn't matter, but putting new items at the top keeps the file easy to read.
+#
+# To add an item, copy this block to the top of the list and edit it:
+#
+# - date: 2026-01-31              # YYYY-MM-DD; only the month and year are shown
+#   text: |
+#     What happened. You can use **bold**, *italics*, and [links](/people/).
+#   image: /assets/images/news/photo-name.jpg        # optional
+#   image_alt: Describe the photo for screen readers  # needed if you add an image
+#
+# Keep the two-space indents and the "|" after "text:"; with those, the text can
+# contain any characters without needing quotes.
+
+- date: 2025-12-15
+  text: |
+    Our group attended the AGU fall meeting in New Orleans in December.
+
+- date: 2025-10-16
+  text: |
+    Nicole Keeney successfully defended her MS thesis, *A spatially and temporally disaggregated twenty first century global flood record for flood impact analysis*. Congratulations, Nicole!
+
+- date: 2024-12-01
+  text: |
+    Mike Talbot and Frances Davenport attended the AGU fall meeting in Washington, D.C. in December.
+  image: /assets/images/news/agu2024.jpg
+  image_alt: Mike Talbot and Frances Davenport with their poster at the AGU fall meeting
+
+- date: 2024-11-01
+  text: |
+    Mike Talbot was selected for the Walter Scott Jr. College of Engineering Excellence in Research Award for his presentation at the CSU Graduate Student Showcase in November. Congrats Mike!
+
+- date: 2024-09-01
+  text: |
+    Fall 2024 new group member! Alexandria Rodgers is a new PhD student co-advised with Antonio Meira Neto. Read more about Al [here](/people/).
+
+- date: 2024-09-01
+  text: |
+    Fall 2024 new group member! Bill Doan is a PhD student working on climate change impacts on transboundary rivers. Read more about Bill [here](/people/).

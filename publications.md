@@ -5,38 +5,12 @@ feature_image: "/assets/images/feature/bangladesh.jpg"
 excerpt: ""
 ---
 
-<i>You can also find a list of publications on <a href="https://scholar.google.com/citations?user=37P41e4AAAAJ&hl=en" target="_blank">Google Scholar</a>. </i>
+*You can also find a list of publications on [Google Scholar](https://scholar.google.com/citations?user=37P41e4AAAAJ&hl=en).*
 
 <ol reversed="reversed">
     {% for paper in site.data.publications %}
       <li>
-       {{ paper.authors }}
-		
-		{% if paper.year %}
-        <b>({{ paper.year }})</b>
-		{% endif %}.
-        
-        <i>{{ paper.title }}</i>,
-		
-        <b>{{ paper.journal }}</b>,
-
-        	{% if paper.status %}
-        <i>({{ paper.status }})</i>
-		{% endif %}
-		
-	     <a href="{{ paper.DOI }}" target='_blank'>{{ paper.DOI }}</a>
-       
-        {% if paper.pdf %}
-              |   <a  href="../assets/paper_pdfs/{{ paper.pdf }}" target='_blank'>PDF</a>
-        {% endif %}
-                      <br>
-		      
-    {% if paper.press %}
-        <strong style="color:#828282">See media coverage in:  </strong>
-            {% for item in site.data[paper.press] %}
-                <a href="{{item.pressLink}}" target='_blank'>{{ item.press }}</a>
-            {% endfor %}
-	{% endif %}
+       {% include citation.html paper=paper press=true %}
 
       </li>
 	  <br/>

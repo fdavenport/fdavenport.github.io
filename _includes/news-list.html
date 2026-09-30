@@ -1,0 +1,16 @@
+{%- comment -%}
+  A list of news items from _data/news.yml.
+  Usage: {% include news-list.html items=items limit=5 %}  (limit is optional)
+{%- endcomment -%}
+<ul class="news-list">
+{%- assign limit = include.limit | default: include.items.size -%}
+{%- for item in include.items limit: limit %}
+  <li>
+    <span class="news-list__date">{{ item.date | date: "%B %Y" }}</span>
+    {{ item.text | markdownify | remove: "<p>" | remove: "</p>" | strip }}
+    {%- if item.image %}
+    <img src="{{ item.image }}" alt="{{ item.image_alt }}">
+    {%- endif %}
+  </li>
+{%- endfor %}
+</ul>

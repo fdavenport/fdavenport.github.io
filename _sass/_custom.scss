@@ -1,0 +1,384 @@
+// Site-specific styles, loaded after the Alembic theme so these rules win.
+
+$cardBorderColour: rgba(0, 0, 0, .176);
+$cardTextColour: #212529;
+$mutedColour: rgba(33, 37, 41, .75);
+$cardRadius: .375rem;
+$gutter: 1.5rem;
+
+// Breakpoints for card layouts (px)
+$break-md: 768px;
+$break-lg: 992px;
+
+
+// Base
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+// Parts of Bootstrap's reset that the Alembic theme came to rely on
+h1, h2, h3, h4, h5, h6,
+p, ol, ul, dl {
+  margin-top: 0;
+}
+
+ol,
+ul {
+  padding-left: 2rem;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid;
+  opacity: .25;
+}
+
+
+// Layout
+.feature {
+  margin-bottom: .2rem;
+}
+
+.content-container {
+  width: 100%;
+  max-width: 1600px;
+  padding: 0 .75rem;
+}
+
+
+// An image inside a bulleted list item (e.g. a news photo) shows as a small block
+.typeset li > img {
+  display: block;
+  width: 300px;
+  max-width: 100%;
+  margin: .25rem 0;
+}
+
+
+// News list (home page and News page): muted month label before each item
+.news-list__date {
+  color: $mutedColour;
+  font-weight: map-get($bodytype, bold);
+
+  &::after {
+    content: " \2014 ";
+  }
+}
+
+
+// Page sections (People, Research, and News pages)
+.typeset .page-section > h4 {
+  margin-bottom: .5rem;
+}
+
+
+// Cards (People and Research pages)
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  overflow: hidden;
+  color: $cardTextColour;
+  line-height: normal;
+  background: $backgroundColour;
+  border: 1px solid $cardBorderColour;
+  border-radius: $cardRadius;
+}
+
+.card__image {
+  display: block;
+  width: 100%;
+  margin: 0;
+  object-fit: cover;
+}
+
+.card__body {
+  flex: 1 1 auto;
+  padding: 1rem;
+
+  > :last-child {
+    margin-bottom: 0;
+  }
+}
+
+.typeset .card__title {
+  padding-bottom: 1rem;
+  line-height: normal;
+}
+
+.typeset .card__text {
+  font-size: .8em;
+  line-height: normal;
+}
+
+.typeset .card__meta {
+  margin: 0;
+  font-size: .75em;
+  color: $mutedColour;
+}
+
+.typeset .card__footer {
+  margin: 0;
+  padding: .5rem 1rem;
+  font-size: .6em;
+  font-style: italic;
+  line-height: normal;
+  border-top: 1px solid $cardBorderColour;
+}
+
+// Makes the whole card clickable through the title link
+.card__link::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+
+.typeset .card__link {
+  color: inherit;
+  background-image: none;
+  text-shadow: none;
+}
+
+// Research cards lift on hover
+.card--project,
+.card--project-small {
+  box-shadow: 0 1px 1px rgba(72, 78, 85, .6);
+  transition: box-shadow .2s ease-out, transform .2s ease-out;
+
+  &:hover,
+  &:focus-within {
+    box-shadow: 0 20px 40px rgba(72, 78, 85, .6);
+    transform: translateY(-5px);
+  }
+}
+
+// Ongoing projects: image left, text right (stacked on phones)
+.card--project {
+  .card__image {
+    aspect-ratio: 16 / 9;
+  }
+
+  @media (min-width: $break-md) {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+
+    .card__image {
+      height: 100%;
+      aspect-ratio: auto;
+    }
+
+    .card__footer {
+      grid-column: 1 / -1;
+    }
+  }
+}
+
+// Previous projects: grid of small cards
+.card-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  column-gap: $gutter;
+
+  @media (min-width: $break-md) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (min-width: $break-lg) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.card--project-small .card__image {
+  aspect-ratio: 4 / 3;
+}
+
+// People: photo left, bio right (stacked on phones)
+.typeset .card__bio p {
+  margin: 0 0 1em;
+  padding: 0;
+  font-size: .8em;
+  line-height: normal;
+}
+
+.card--person {
+  .card__image {
+    height: 250px;
+    object-position: 50% 25%;
+  }
+
+  @media (min-width: $break-md) {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: start;
+
+    .card__image {
+      height: 15vw;
+    }
+  }
+}
+
+
+// Alumni: compact grid of photo, name, position, and years
+.alumni-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem $gutter;
+
+  @media (min-width: $break-md) {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.alumni-card {
+  line-height: normal;
+}
+
+.alumni-card__image {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  margin: 0 0 .5rem;
+  object-fit: cover;
+  object-position: 50% 25%;
+  border: 1px solid $cardBorderColour;
+  border-radius: $cardRadius;
+}
+
+.typeset .alumni-card__name,
+.typeset .alumni-card__meta {
+  margin: 0;
+  padding: 0;
+  font-size: .8em;
+  line-height: normal;
+}
+
+.typeset .alumni-card__name {
+  font-weight: map-get($bodytype, bold);
+}
+
+.typeset .alumni-card__meta {
+  font-size: .7em;
+  color: $mutedColour;
+}
+
+// Research project pages (_layouts/research.html)
+$figureBorderColour: #dee2e6;
+
+.typeset .project-details {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+  gap: .5rem $gutter;
+  margin: 0 0 1rem;
+  padding: 0;
+  line-height: normal;
+
+  dt,
+  dd {
+    margin: 0;
+    padding: 0;
+  }
+
+  dt {
+    font-weight: map-get($bodytype, bold);
+  }
+
+  dd {
+    font-size: .75em;
+    line-height: normal;
+  }
+
+  a {
+    text-decoration: underline;
+  }
+}
+
+.typeset .project-body,
+.typeset .project-publications {
+  p,
+  li {
+    margin: 0 0 .75rem;
+    padding: 0;
+    font-size: .75em;
+    line-height: 1.35;
+  }
+
+  li {
+    margin-bottom: .25rem;
+  }
+
+  ol,
+  ul {
+    display: flow-root; // keeps lists tidy next to a floated figure
+    margin: 0 0 .75rem;
+  }
+
+  h2,
+  h3 {
+    clear: both;
+    margin: 1rem 0 .25rem;
+    padding: 0;
+    font-size: 1em;
+    font-weight: map-get($bodytype, bold);
+    line-height: normal;
+  }
+
+  h3 {
+    font-size: .85em;
+  }
+
+  // An image followed by an italic line on the next line becomes a captioned figure
+  p:has(> img) {
+    padding: .25rem;
+    border: 1px solid $figureBorderColour;
+
+    img {
+      display: block;
+      width: 100%;
+      margin: 0;
+    }
+
+    em {
+      display: block;
+      padding-top: .25rem;
+      font-style: normal;
+    }
+  }
+
+  // Optional: {: .left} or {: .right} under a figure floats it beside the text
+  @media (min-width: $break-md) {
+    .left,
+    .right {
+      width: 40%;
+    }
+
+    .left {
+      float: left;
+      margin: .25rem $gutter .75rem 0;
+    }
+
+    .right {
+      float: right;
+      margin: .25rem 0 .75rem $gutter;
+    }
+  }
+}
+
+.typeset .project-body::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.typeset .project-publications ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+.typeset .project-back {
+  font-size: .75em;
+  text-align: right;
+}

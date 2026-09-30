@@ -1,25 +1,53 @@
 ## instructions for group members to contribute to the site:
 
-First, you will need to install jekyll: [https://jekyllrb.com/docs/installation/](https://jekyllrb.com/docs/installation/)
+**One-time setup**
 
-Next, clone the site locally so that you can preview and test your changes. Navigate to a directory on your computer where you want to site to be located. Clone the site with the following command:  
-```bash
-git clone https://github.com/fdavenport/fdavenport.github.io
-```
-You can use the dev branch or create a new branch to make your changes. Once you are satisfied with your changes, you can create a pull request to merge your new changes into the master branch, which will make them live on the website. 
+1. Install Ruby (3.1 is known to work) and Jekyll by following [https://jekyllrb.com/docs/installation/](https://jekyllrb.com/docs/installation/).
+2. Clone the site to your computer. Navigate to the directory where you want the site to live and run:
+   ```bash
+   git clone https://github.com/fdavenport/fdavenport.github.io
+   cd fdavenport.github.io
+   ```
+3. Install the site's dependencies (only needed once, or after the `Gemfile` changes):
+   ```bash
+   bundle install
+   ```
 
-Within the site directory, use the following terminal commands to run the site locally. You will likely need to copy the server address into your browser to view the site. By default, the address is usually http://127.0.0.1:4000/. 
-```bash
-bundle exec jekyll build
+**Testing your changes locally**
 
-bundle exec jekyll serve
-```
+Always test locally before opening a pull request. From the site directory:
 
-**To add your profile information:**
-* Add your information to _data/people.yml following the same format as existing group members.
-* Add your profile picture to assets/images/profile using the naming convention [Lastname].jpg. 
+1. Build the site to check for errors:
+   ```bash
+   bundle exec jekyll build
+   ```
+   This writes the finished site to the `_site/` folder (which is not committed). If it prints an error, the message usually names the file and line to fix. A common cause is a formatting mistake in the settings at the top of a file, such as a missing space after a colon or a value containing ": " that isn't wrapped in quotes.
 
-**To contribute a research page:**
-* Add your research page information to _data/research.yml. This will create a new "card" on the main research page
-* Create a new markdown file in research/ with your project information. You can use project-example-1.md as a template. The name of this file should match whatever url you chose for your project in the previous step
+2. Preview the site in your browser:
+   ```bash
+   bundle exec jekyll serve
+   ```
+   Then open [http://127.0.0.1:4000/](http://127.0.0.1:4000/). The site rebuilds automatically when you save a file; refresh the page to see your changes. Changes to `_config.yml` are the exception: stop the server and start it again to see those. Press `Ctrl+C` in the terminal to stop the server.
 
+3. Check the pages you changed, including on a narrow window (or your browser's phone view), since the layout changes on small screens.
+
+**Publishing your changes**
+
+Make your changes on the `dev` branch or a new branch. When you are happy with them, open a pull request to merge them into `master`, which makes them live on the website.
+
+**To add yourself to the People page:**
+* Copy `templates/person.md` into the `_people/` folder and rename it to your last name in lowercase (e.g. `talbot.md`).
+* Add your photo to `assets/images/profile/` using the naming convention `[Lastname].jpg`.
+* Fill in your name, pronouns, and photo at the top of the file, and write your bio below it in plain Markdown. The `order` setting controls where you appear on the page.
+* When someone leaves the group, change `status: current` to `status: alumni` in their file and add the years they were in the group (e.g. `years: "2023–2025"`). They move to the Alumni section, which shows only their photo, name, position, and years.
+
+**To add a news item:**
+* Add an entry at the top of `_data/news.yml`. The instructions at the top of that file show the format: a date, the text (Markdown is fine), and an optional photo.
+* The home page shows the 5 newest items automatically, and the full history stays on the News page (`/news/`). Nothing needs to be deleted when news gets old.
+
+**To add a research project:**
+* Copy `templates/research-project.md` into the `_research/` folder and rename it to a short, lowercase, hyphenated name (e.g. `snow-drought.md`). The file name becomes the page address (`/research/snow-drought/`).
+* Put your images in a new folder, `assets/images/research/<your-file-name>/`.
+* Fill in the settings at the top of the file and replace the example text with your own. The template explains each setting and shows how to add headings, lists, and figures. Everything is plain Markdown; no HTML needed.
+* Your project's card appears on the Research page automatically. Set `status: previous` when the project wraps up to move it to the Previous Research section.
+* To list related papers, add their DOIs under `publications:`. Papers in `_data/publications.yml` are formatted automatically.

@@ -6,19 +6,25 @@ feature_image: "/assets/images/feature/mountains.jpg"
 excerpt: ""
 ---
 
-{% for person in site.data.people %}
-<div class="col-12">
-    <div class="card mb-3">
-        <div class="row g-0">
-            <div class="col-md-3">
-                <img src="{{ person.photo }}" class="img-fluid img-profile" alt="">
-            </div>
-            <div class="col-md-9">
-                <div class="card-body profile-body">
-                    <p class="card-text profile-text" style="line-height: normal"><b>{{ person.title }} {{ person.name }} {% if person.pronouns %}({{ person.pronouns }}) {% endif %}</b> {{ person.profile }}</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+{%- comment -%} Cards are built from the files in _people/, sorted by their "order" setting. {%- endcomment -%}
+{%- assign people = site.people | sort: "order" -%}
+{%- assign current = people | where_exp: "person", "person.status != 'alumni'" -%}
+{%- assign alumni = people | where: "status", "alumni" -%}
+
+<section class="page-section people-list">
+{% for person in current %}
+    {% include person-card.html person=person %}
 {% endfor %}
+</section>
+
+{% if alumni.size > 0 %}
+<hr>
+<section class="page-section">
+    <h4>Alumni</h4>
+    <div class="alumni-grid">
+    {% for person in alumni %}
+        {% include alumni-card.html person=person %}
+    {% endfor %}
+    </div>
+</section>
+{% endif %}
