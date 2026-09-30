@@ -7,54 +7,42 @@ excerpt: ""
 ---
 
 <!-- ongoing research section -->
-<div class="row">
-    <h4 class="mb-2">Ongoing Research</h4>
+<section class="project-section">
+    <h4>Ongoing Research</h4>
     {% for project in site.data.research %}
         {% unless project.title == "Nothing" %}
             {% if project.status == "Ongoing" %}
-                <div class="col-12">
-                    <div class="card mb-3 box-shadow">
-                        <div class="row g-0">
-                            <div class="col-md-4">
-                                <a href="{{ project.url }}" class="stretched-link">
-                                    <img src="{{ project.figure }}" class="img-fluid img-research" alt="{{ project.alt-text }}" style="width: 100%; aspect-ratio: 16/9; object-fit: cover;">
-                                </a>
-                            </div>
-                            <div class="col-md-8">
-                                <div class="card-body research-body">
-                                    <h5 class="card-title pt-0 pb-3" style="line-height: normal">{{ project.title }}</h5>
-                                    <p class="card-text" style="line-height: normal">{{ project.short-desc }}</p>
-                                    <p class="card-text card-text-bottom"><small class="text-muted">Last Updated: {{ project.last-updated }}</small></p>
-                                </div>
-                            </div>
-                        <span class="card-footer text-wrap">Image: {{ project.caption }}</span>
-                        </div>
+                <article class="card card--project">
+                    <img src="{{ project.figure }}" class="card__image" alt="{{ project.alt-text }}">
+                    <div class="card__body">
+                        <h5 class="card__title"><a href="{{ project.url }}" class="card__link">{{ project.title }}</a></h5>
+                        <p class="card__text">{{ project.short-desc }}</p>
+                        <p class="card__meta">Last Updated: {{ project.last-updated }}</p>
                     </div>
-                </div>
-            {% endif %}            
+                    <p class="card__footer">Image: {{ project.caption }}</p>
+                </article>
+            {% endif %}
         {% else %}
             <h5>Coming soon!</h5>
         {% endunless %}
     {% endfor %}
-</div>
+</section>
 <hr>
 <!-- previous research section -->
-<div class="row">
-    <h4 class="mb-2">Previous Research</h4>
+<section class="project-section">
+    <h4>Previous Research</h4>
+    <div class="card-grid">
     {% for project in site.data.research %}
         {% unless project.title == "Nothing" %}
             {% if project.status == "Previous" %}
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="card mb-3 box-shadow">
-                        <a href="{{ project.url }}" class="stretched-link">
-                            <img src="{{ project.figure }}" class="card-img-top" alt="{{ project.alt-text}}" style="width: 100%; aspect-ratio: 4/3; object-fit: cover;">
-                        </a>
-                        <div class="card-body">
-                            <p class="card-text research-text">{{ project.title }}</p>
-                        </div>
-                    </div>                
-                </div>
-            {% endif %}            
+                <article class="card card--project-small">
+                    <img src="{{ project.figure }}" class="card__image" alt="{{ project.alt-text }}">
+                    <div class="card__body">
+                        <p class="card__text"><a href="{{ project.url }}" class="card__link">{{ project.title }}</a></p>
+                    </div>
+                </article>
+            {% endif %}
         {% endunless %}
     {% endfor %}
-</div>
+    </div>
+</section>

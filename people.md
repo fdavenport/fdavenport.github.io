@@ -6,19 +6,13 @@ feature_image: "/assets/images/feature/mountains.jpg"
 excerpt: ""
 ---
 
+<div class="people-list">
 {% for person in site.data.people %}
-<div class="col-12">
-    <div class="card mb-3">
-        <div class="row g-0">
-            <div class="col-md-3">
-                <img src="{{ person.photo }}" class="img-fluid img-profile" alt="Photo of {{ person.name }}">
-            </div>
-            <div class="col-md-9">
-                <div class="card-body profile-body">
-                    <p class="card-text profile-text" style="line-height: normal"><b>{{ person.title }} {{ person.name }} {% if person.pronouns %}({{ person.pronouns }}) {% endif %}</b> {{ person.profile }}</p>
-                </div>
-            </div>
+    <article class="card card--person">
+        <img src="{{ person.photo }}" class="card__image" alt="Photo of {{ person.name }}">
+        <div class="card__body">
+            <p class="card__text"><b>{{ person.title }} {{ person.name }} {% if person.pronouns %}({{ person.pronouns }}) {% endif %}</b> {{ person.profile }}</p>
         </div>
-    </div>
-</div>
+    </article>
 {% endfor %}
+</div>

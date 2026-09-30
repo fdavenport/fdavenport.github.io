@@ -8,7 +8,9 @@ _Reviewed 2026-09-30 against `master` @ `fb9723b`._
 |---|---|
 | §2 Bugs (logo, jQuery snippet, `CNAME`, `url`/`description`, empty card, Bootstrap JS) | Done |
 | §3 Stray files, `_pubs/`, unused theme scaffolding, service worker, Gemfile/plugins, `exclude:` | Done |
-| §3 Inline CSS from `_layouts/page.html` moved to `_sass/_custom.scss` | Done. Bootstrap vs. Alembic question still open |
+| §3 Inline CSS from `_layouts/page.html` moved to `_sass/_custom.scss` | Done |
+| §3 CSS frameworks: Bootstrap removed, Alembic kept, cards/grid rewritten in `_sass/_custom.scss` | Done. `_sass/_legacy-research.scss` is a temporary stand-in for Bootstrap classes in `research/*.md` and goes away with §1 |
+| §4 Mobile layout | Fixed. The `h1` negative-margin hack made every page 15px wider than a phone screen |
 | §4 Typos, People photo alt text, extreme-precip card alt text | Done. Research-page image issues are deferred to §1 |
 | §5 README setup steps | Done. The "add a research page" instructions will be rewritten with §1 |
 | §1 Research template redesign | Not started (planned last) |

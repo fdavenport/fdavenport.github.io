@@ -1,0 +1,35 @@
+// TEMPORARY: stand-ins for the few Bootstrap classes still used in the
+// hand-written HTML of research/*.md. Delete this file (and its import in
+// alembic.scss) once those pages are converted to the Markdown template.
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -.75rem;
+
+  > * {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding: 0 .75rem;
+  }
+}
+
+.col {
+  flex: 1 0 0%;
+}
+
+@media (min-width: 768px) {
+  .col-md-4 { flex: 0 0 auto; width: 33.33333333%; }
+  .col-md-8 { flex: 0 0 auto; width: 66.66666667%; }
+}
+
+.border { border: 1px solid #dee2e6 !important; }
+.border-1 { border-width: 1px !important; }
+.float-end { float: right !important; }
+.text-end { text-align: right !important; }
+.m-0 { margin: 0 !important; }
+.m-1 { margin: .25rem !important; }
+.p-0 { padding: 0 !important; }
+.p-1 { padding: .25rem !important; }
+.pb-1 { padding-bottom: .25rem !important; }
