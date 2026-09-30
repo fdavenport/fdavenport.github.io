@@ -15,6 +15,15 @@ name: Your Name
 pronouns: they/them                 # optional; delete this line to leave it out
 photo: /assets/images/profile/Lastname.jpg
 
+position: PhD Student              # your role in the group, e.g. Postdoc, MS Student, Undergraduate Researcher
+
+# Leave this as "current" while you're in the group. When you leave, change it
+# to "alumni" and add the years you were in the group. Alumni are listed at the
+# bottom of the People page with just their photo, name, position, and years;
+# the bio below is kept in this file but no longer shown.
+status: current
+# years: "2024–2028"                 # for alumni; keep the quotes
+
 # Position on the People page: lower numbers appear first. Current members use
 # multiples of 10 (10, 20, 30, ...), so pick a number after the last person, or
 # between two people to slot in. Check the other files in _people/ to see the order.

@@ -1,6 +1,9 @@
 ---
 name: Rob Iliff
 photo: /assets/images/profile/Iliff.jpeg
+position: Undergraduate Researcher
+years: "2025"
+status: alumni
 order: 70
 ---
 

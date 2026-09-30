@@ -17,6 +17,7 @@ _Reviewed 2026-09-30 against `master` @ `fb9723b`._
 | §5 README research instructions | Done |
 | People and News to Markdown | Done. `_people/` collection (one file per person, bio in Markdown), `templates/person.md`; news photo uses Markdown image syntax |
 | Publications to Markdown | Done. Author bolding in `_data/publications.yml` uses `**…**`; Google Scholar note is Markdown |
+| People page Alumni section | Done. `status: alumni` moves a person to a compact grid (photo, name, position, years); bios kept in files but hidden |
 
 Every page's rendered content was compared against the original build, and screenshots were compared before and after. The only differences are the intended text fixes, plus HTML serialization details (`<br>` → `<br />`), explained in §3.
 

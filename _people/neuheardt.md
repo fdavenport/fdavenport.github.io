@@ -1,6 +1,9 @@
 ---
 name: Brigid Neuheardt
 photo: /assets/images/profile/Neuheardt.png
+position: Undergraduate Researcher
+years: "2025"
+status: alumni
 order: 60
 ---
 

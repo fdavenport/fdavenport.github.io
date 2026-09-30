@@ -29,6 +29,7 @@ Make your changes on the `dev` branch or a new branch. When you are happy with t
 * Copy `templates/person.md` into the `_people/` folder and rename it to your last name in lowercase (e.g. `talbot.md`).
 * Add your photo to `assets/images/profile/` using the naming convention `[Lastname].jpg`.
 * Fill in your name, pronouns, and photo at the top of the file, and write your bio below it in plain Markdown. The `order` setting controls where you appear on the page.
+* When someone leaves the group, change `status: current` to `status: alumni` in their file and add the years they were in the group (e.g. `years: "2023–2025"`). They move to the Alumni section, which shows only their photo, name, position, and years.
 
 **To add a news item:**
 * Add a bullet to the "Recent News" list in `index.md`, newest first. To include a photo, put it on the line right after the bullet's text, indented two spaces:

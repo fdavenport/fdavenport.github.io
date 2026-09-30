@@ -1,0 +1,12 @@
+{%- comment -%}
+  A compact card for the Alumni section of the People page: photo, name,
+  position, and years. The bio in the person's file is kept but not shown.
+  Usage: {% include alumni-card.html person=person %}
+{%- endcomment -%}
+{%- assign person = include.person -%}
+<article class="alumni-card">
+    <img src="{{ person.photo }}" class="alumni-card__image" alt="Photo of {{ person.name }}">
+    <p class="alumni-card__name">{{ person.name }}</p>
+    {% if person.position %}<p class="alumni-card__meta">{{ person.position }}</p>{% endif %}
+    {% if person.years %}<p class="alumni-card__meta">{{ person.years }}</p>{% endif %}
+</article>

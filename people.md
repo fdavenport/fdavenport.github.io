@@ -6,18 +6,25 @@ feature_image: "/assets/images/feature/mountains.jpg"
 excerpt: ""
 ---
 
-{%- comment -%} Each card is built from a file in _people/, sorted by its "order" setting. {%- endcomment -%}
+{%- comment -%} Cards are built from the files in _people/, sorted by their "order" setting. {%- endcomment -%}
 {%- assign people = site.people | sort: "order" -%}
+{%- assign current = people | where_exp: "person", "person.status != 'alumni'" -%}
+{%- assign alumni = people | where: "status", "alumni" -%}
 
-<div class="people-list">
-{% for person in people %}
-    {%- comment -%} Put the bold name and pronouns at the start of the bio's first paragraph {%- endcomment -%}
-    {%- capture bio_start -%}<p><b>{% if person.prefix %}{{ person.prefix }} {% endif %}{{ person.name }}{% if person.pronouns %} ({{ person.pronouns }}){% endif %}</b> {% endcapture -%}
-    <article class="card card--person">
-        <img src="{{ person.photo }}" class="card__image" alt="Photo of {{ person.name }}">
-        <div class="card__body card__bio">
-            {{ person.content | replace_first: "<p>", bio_start }}
-        </div>
-    </article>
+<section class="page-section people-list">
+{% for person in current %}
+    {% include person-card.html person=person %}
 {% endfor %}
-</div>
+</section>
+
+{% if alumni.size > 0 %}
+<hr>
+<section class="page-section">
+    <h4>Alumni</h4>
+    <div class="alumni-grid">
+    {% for person in alumni %}
+        {% include alumni-card.html person=person %}
+    {% endfor %}
+    </div>
+</section>
+{% endif %}

@@ -2,6 +2,9 @@
 name: Nicole Keeney
 pronouns: she/her
 photo: /assets/images/profile/Keeney.png
+position: MS Student
+years: "2023–2025"
+status: alumni
 order: 20
 ---
 

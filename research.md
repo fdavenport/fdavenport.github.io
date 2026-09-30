@@ -11,7 +11,7 @@ excerpt: ""
 {%- assign previous = site.research | where: "status", "previous" | sort: "title" -%}
 
 <!-- ongoing research section -->
-<section class="project-section">
+<section class="page-section">
     <h4>Ongoing Research</h4>
     {% for project in ongoing %}
         <article class="card card--project">
@@ -29,7 +29,7 @@ excerpt: ""
 </section>
 <hr>
 <!-- previous research section -->
-<section class="project-section">
+<section class="page-section">
     <h4>Previous Research</h4>
     <div class="card-grid">
     {% for project in previous %}
