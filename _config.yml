@@ -11,7 +11,7 @@ sass:
 permalink: pretty  # Pages are served as /page-name/
 exclude: # Files in the repo that should not be published to the site
   - README.md
-  - REVIEW.md
+  - CLEANUP.md
   - templates
   - Gemfile
   - Gemfile.lock

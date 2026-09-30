@@ -13,13 +13,23 @@
    bundle install
    ```
 
-**Previewing your changes**
+**Testing your changes locally**
 
-From the site directory, run:
-```bash
-bundle exec jekyll serve
-```
-Then open [http://127.0.0.1:4000/](http://127.0.0.1:4000/) in your browser. The site rebuilds automatically when you save a file; refresh the page to see your changes. Press `Ctrl+C` in the terminal to stop the server.
+Always test locally before opening a pull request. From the site directory:
+
+1. Build the site to check for errors:
+   ```bash
+   bundle exec jekyll build
+   ```
+   This writes the finished site to the `_site/` folder (which is not committed). If it prints an error, the message usually names the file and line to fix. A common cause is a formatting mistake in the settings at the top of a file, such as a missing space after a colon or a value containing ": " that isn't wrapped in quotes.
+
+2. Preview the site in your browser:
+   ```bash
+   bundle exec jekyll serve
+   ```
+   Then open [http://127.0.0.1:4000/](http://127.0.0.1:4000/). The site rebuilds automatically when you save a file; refresh the page to see your changes. Changes to `_config.yml` are the exception: stop the server and start it again to see those. Press `Ctrl+C` in the terminal to stop the server.
+
+3. Check the pages you changed, including on a narrow window (or your browser's phone view), since the layout changes on small screens.
 
 **Publishing your changes**
 
