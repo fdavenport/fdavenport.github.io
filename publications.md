@@ -10,33 +10,7 @@ excerpt: ""
 <ol reversed="reversed">
     {% for paper in site.data.publications %}
       <li>
-       {{ paper.authors }}
-		
-		{% if paper.year %}
-        <b>({{ paper.year }})</b>
-		{% endif %}.
-        
-        <i>{{ paper.title }}</i>,
-		
-        <b>{{ paper.journal }}</b>,
-
-        	{% if paper.status %}
-        <i>({{ paper.status }})</i>
-		{% endif %}
-		
-	     <a href="{{ paper.DOI }}" target='_blank'>{{ paper.DOI }}</a>
-       
-        {% if paper.pdf %}
-              |   <a  href="../assets/paper_pdfs/{{ paper.pdf }}" target='_blank'>PDF</a>
-        {% endif %}
-                      <br>
-		      
-    {% if paper.press %}
-        <strong style="color:#828282">See media coverage in:  </strong>
-            {% for item in site.data[paper.press] %}
-                <a href="{{item.pressLink}}" target='_blank'>{{ item.press }}</a>
-            {% endfor %}
-	{% endif %}
+       {% include citation.html paper=paper press=true %}
 
       </li>
 	  <br/>

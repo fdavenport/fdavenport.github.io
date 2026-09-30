@@ -193,3 +193,122 @@ hr {
     }
   }
 }
+
+
+// Research project pages (_layouts/research.html)
+$figureBorderColour: #dee2e6;
+
+.typeset .project-details {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+  gap: .5rem $gutter;
+  margin: 0 0 1rem;
+  padding: 0;
+  line-height: normal;
+
+  dt,
+  dd {
+    margin: 0;
+    padding: 0;
+  }
+
+  dt {
+    font-weight: map-get($bodytype, bold);
+  }
+
+  dd {
+    font-size: .75em;
+    line-height: normal;
+  }
+
+  a {
+    text-decoration: underline;
+  }
+}
+
+.typeset .project-body,
+.typeset .project-publications {
+  p,
+  li {
+    margin: 0 0 .75rem;
+    padding: 0;
+    font-size: .75em;
+    line-height: 1.35;
+  }
+
+  li {
+    margin-bottom: .25rem;
+  }
+
+  ol,
+  ul {
+    display: flow-root; // keeps lists tidy next to a floated figure
+    margin: 0 0 .75rem;
+  }
+
+  h2,
+  h3 {
+    clear: both;
+    margin: 1rem 0 .25rem;
+    padding: 0;
+    font-size: 1em;
+    font-weight: map-get($bodytype, bold);
+    line-height: normal;
+  }
+
+  h3 {
+    font-size: .85em;
+  }
+
+  // An image followed by an italic line on the next line becomes a captioned figure
+  p:has(> img) {
+    padding: .25rem;
+    border: 1px solid $figureBorderColour;
+
+    img {
+      display: block;
+      width: 100%;
+      margin: 0;
+    }
+
+    em {
+      display: block;
+      padding-top: .25rem;
+      font-style: normal;
+    }
+  }
+
+  // Optional: {: .left} or {: .right} under a figure floats it beside the text
+  @media (min-width: $break-md) {
+    .left,
+    .right {
+      width: 40%;
+    }
+
+    .left {
+      float: left;
+      margin: .25rem $gutter .75rem 0;
+    }
+
+    .right {
+      float: right;
+      margin: .25rem 0 .75rem $gutter;
+    }
+  }
+}
+
+.typeset .project-body::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.typeset .project-publications ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+.typeset .project-back {
+  font-size: .75em;
+  text-align: right;
+}

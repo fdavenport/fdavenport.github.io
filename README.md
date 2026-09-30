@@ -29,7 +29,9 @@ Make your changes on the `dev` branch or a new branch. When you are happy with t
 * Add your information to _data/people.yml following the same format as existing group members.
 * Add your profile picture to assets/images/profile using the naming convention [Lastname].jpg. 
 
-**To contribute a research page:**
-* Add your research page information to _data/research.yml. This will create a new "card" on the main research page
-* Create a new markdown file in research/ with your project information. You can use project-example-1.md as a template. The name of this file should match whatever url you chose for your project in the previous step
-
+**To add a research project:**
+* Copy `templates/research-project.md` into the `_research/` folder and rename it to a short, lowercase, hyphenated name (e.g. `snow-drought.md`). The file name becomes the page address (`/research/snow-drought/`).
+* Put your images in a new folder, `assets/images/research/<your-file-name>/`.
+* Fill in the settings at the top of the file and replace the example text with your own. The template explains each setting and shows how to add headings, lists, and figures. Everything is plain Markdown; no HTML needed.
+* Your project's card appears on the Research page automatically. Set `status: previous` when the project wraps up to move it to the Previous Research section.
+* To list related papers, add their DOIs under `publications:`. Papers in `_data/publications.yml` are formatted automatically.

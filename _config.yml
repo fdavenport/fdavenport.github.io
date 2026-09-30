@@ -12,6 +12,7 @@ permalink: pretty  # Pages are served as /page-name/
 exclude: # Files in the repo that should not be published to the site
   - README.md
   - REVIEW.md
+  - templates
   - Gemfile
   - Gemfile.lock
   - node_modules
@@ -19,7 +20,19 @@ exclude: # Files in the repo that should not be published to the site
 
 
 # 6. Jekyll collections settings
+collections:
+  research: # One Markdown file per project in _research/ (see templates/research-project.md)
+    output: true
+    permalink: /research/:name/
+
 defaults:
+  -
+    scope:
+      path: ""
+      type: "research"
+    values:
+      layout: research
+      feature_image: "/assets/images/feature/earth.jpg"
   -
     scope:
       path: ""

@@ -13,7 +13,8 @@ _Reviewed 2026-09-30 against `master` @ `fb9723b`._
 | §4 Mobile layout | Fixed. The `h1` negative-margin hack made every page 15px wider than a phone screen |
 | §4 Typos, People photo alt text, extreme-precip card alt text | Done. Research-page image issues are deferred to §1 |
 | §5 README setup steps | Done. The "add a research page" instructions will be rewritten with §1 |
-| §1 Research template redesign | Not started (planned last) |
+| §1 Research template redesign | Done. `_research/` collection, `_layouts/research.html`, `templates/research-project.md`; four pages migrated; publications matched by DOI via `_includes/citation.html` |
+| §5 README research instructions | Done |
 
 Every page's rendered content was compared against the original build, and screenshots were compared before and after. The only differences are the intended text fixes, plus HTML serialization details (`<br>` → `<br />`), explained in §3.
 

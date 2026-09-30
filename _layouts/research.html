@@ -1,0 +1,59 @@
+---
+layout: page
+---
+
+{% if page.members or page.study_areas or page.funding %}
+<dl class="project-details">
+  {% if page.members %}
+  <div>
+    <dt>Project Members</dt>
+    <dd>{{ page.members | join: ", " }}</dd>
+  </div>
+  {% endif %}
+  {% if page.study_areas %}
+  <div>
+    <dt>Study Areas</dt>
+    <dd>{{ page.study_areas | join: ", " }}</dd>
+  </div>
+  {% endif %}
+  {% if page.funding %}
+  <div>
+    <dt>Funding</dt>
+    <dd>
+      {%- for source in page.funding -%}
+        {%- if source.url -%}<a href="{{ source.url }}" target="_blank">{{ source.name }}</a>
+        {%- elsif source.name -%}{{ source.name }}
+        {%- else -%}{{ source }}{%- endif -%}
+        {%- unless forloop.last -%}, {% endunless -%}
+      {%- endfor -%}
+    </dd>
+  </div>
+  {% endif %}
+</dl>
+{% endif %}
+
+<div class="project-body">
+{{ content }}
+</div>
+
+{% if page.publications %}
+<section class="project-publications">
+  <h2>Related Publications</h2>
+  <ul>
+    {% for ref in page.publications %}
+      {%- comment -%} Look the reference up in _data/publications.yml by DOI; otherwise show it as written. {%- endcomment -%}
+      {%- assign ref_id = ref | strip | downcase | remove: "https://doi.org/" | remove: "http://doi.org/" -%}
+      {%- assign match = nil -%}
+      {%- for paper in site.data.publications -%}
+        {%- assign paper_id = paper.DOI | strip | downcase -%}
+        {%- if paper_id contains ref_id -%}{%- assign match = paper -%}{%- break -%}{%- endif -%}
+      {%- endfor -%}
+      <li>
+        {% if match %}{% include citation.html paper=match %}{% else %}{{ ref | markdownify | remove: "<p>" | remove: "</p>" }}{% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
+
+<p class="project-back"><a href="/research/">Back to Research Projects</a></p>
