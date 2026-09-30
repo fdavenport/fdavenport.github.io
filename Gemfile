@@ -1,16 +1,11 @@
 source "https://rubygems.org"
 
+# github-pages pins Jekyll and every plugin to the versions GitHub Pages uses
 group :jekyll_plugins do
     gem 'github-pages'
-    gem 'jekyll'
-    gem 'jekyll-feed'
     gem 'jekyll-sitemap'
     gem 'jekyll-mentions'
     gem 'jekyll-seo-tag'
-    gem 'jekyll-email-protect'
-    gem 'jekyll-paginate'
     gem 'jemoji'
-    gem 'jekyll-twitter-plugin'
-    gem 'webrick'
+    gem 'webrick' # required to run `jekyll serve` on Ruby 3+
 end
-

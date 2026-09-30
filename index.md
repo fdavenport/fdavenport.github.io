@@ -5,7 +5,7 @@ feature_image: "/assets/images/feature/lakepowell_crop.jpg"
 excerpt: ""
 ---
 
-Welcome! Our group explores broad research questions related to global climate, the hydrologic cycle, and extreme climate events. We also conduct research to quantifying the socioeconomic impacts of climate change and climate variability. 
+Welcome! Our group explores broad research questions related to global climate, the hydrologic cycle, and extreme climate events. We also conduct research quantifying the socioeconomic impacts of climate change and climate variability. 
 
 Currently, many of our projects revolve around understanding the hydrology of floods and how extreme precipitation and floods are affected by climate change. We are also working on developing more comprehensive geospatial records of historical flood events to enable better research on how floods impact people and where flood adaptation efforts have been most effective. 
 

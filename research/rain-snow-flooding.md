@@ -37,9 +37,9 @@ excerpt: ""
         <p style="line-height: normal" class="m-0 pb-1">
             <b>Related Publications</b>
         </p>
-        <p style="line-height: normal" class="m-0 pb-1"><small>Davenport, F. V., J. E. Herrera-Estrada, M. Burke, and N. S. Diffenbaugh (2020) . Flood size increases nonlinearly across the western United States in response to lower snow‐precipitation ratios, Water Resources Research, <a href="https://doi.org/10.1029/2019WR025571" target='_blank'>https://doi.org/10.1029/2019WR025571</a></small>
+        <p style="line-height: normal" class="m-0 pb-1"><small>Davenport, F. V., J. E. Herrera-Estrada, M. Burke, and N. S. Diffenbaugh (2020). Flood size increases nonlinearly across the western United States in response to lower snow‐precipitation ratios, Water Resources Research, <a href="https://doi.org/10.1029/2019WR025571" target='_blank'>https://doi.org/10.1029/2019WR025571</a></small>
         </p>
-<p style="line-height: normal" class="m-0 pb-1"><small>Yu, G., D. B. Wright, and F. V. Davenport (2022) . Diverse Physical Processes Drive Upper-Tail Flood Quantiles in the US Mountain West, Geophysical Research Letters, <a href="https://doi.org/10.1029/2022GL098855" target='_blank'>https://doi.org/10.1029/2022GL098855</a></small>
+<p style="line-height: normal" class="m-0 pb-1"><small>Yu, G., D. B. Wright, and F. V. Davenport (2022). Diverse Physical Processes Drive Upper-Tail Flood Quantiles in the US Mountain West, Geophysical Research Letters, <a href="https://doi.org/10.1029/2022GL098855" target='_blank'>https://doi.org/10.1029/2022GL098855</a></small>
         </p>
         
     </div>

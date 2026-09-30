@@ -6,3 +6,6 @@ alembic-jekyll-theme-*.gem
 Gemfile.lock
 **/Gemfile.lock
 .DS_Store
+*~
+*.old
+.Rhistory

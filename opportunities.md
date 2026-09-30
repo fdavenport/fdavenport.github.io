@@ -7,7 +7,7 @@ excerpt: ""
 
 #### Graduate Students
 
-I do not have currently have funding for new students to join the group. I may be able to accept students with external fellowship funding. If you are interested in applying for a fellowship with Frances as your advisor, please reach out to her via email. 
+I do not currently have funding for new students to join the group. I may be able to accept students with external fellowship funding. If you are interested in applying for a fellowship with Frances as your advisor, please reach out to her via email. 
 
 Our group is typically a good fit for students with a background in engineering, atmospheric or earth sciences, physics, or other related fields. Our research group uses computational methods, so previous experience with coding is highly beneficial. Interested students can contact Frances via email (f.davenport@colostate.edu) with a brief description of their background and interests for graduate school. 
 

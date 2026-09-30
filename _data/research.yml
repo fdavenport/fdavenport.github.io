@@ -17,7 +17,7 @@
   figure: "/assets/images/research/snow_melt_by_thesleepyrabbit.jpg"
   url: 'water-supply-forecasting-data-driven-models'
   alt-text: "A small stream surrounded by melting snow. Attribution: https://www.deviantart.com/thesleepyrabbit/art/Snow-Melt-519165575"
-  short-desc: ""
+  short-desc: "We are developing Long Short-Term Memory (LSTM) neural networks trained on watersheds across the Western U.S. to improve seasonal forecasts of growing-season water supply in Colorado, and exploring whether moisture recycling patterns can add forecast skill."
   caption: "Snow melting in Roosevelt National Forest."
   last-updated: "May 13th, 2025"
 
@@ -26,7 +26,7 @@
   status: Ongoing
   figure: "/assets/images/research/nkeeney-ml-extreme-precip/greeley_flood_2013.jpg"
   url: 'nkeeney-ml-extreme-precip'
-  alt-text: ""
+  alt-text: "A flooded road and neighborhood in Greeley, Colorado, September 2013"
   short-desc: "Using climate model output and satellite observations, we train a series of convolutional neural networks to understand the underlying physical mechanisms contributing to extreme precipitation in different regions around the globe."
   caption: "Flooding in Greeley, Colorado (30 miles east of Fort Collins) in September, 2013."
   last-updated: "June 28, 2024"

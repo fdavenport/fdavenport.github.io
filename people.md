@@ -11,7 +11,7 @@ excerpt: ""
     <div class="card mb-3">
         <div class="row g-0">
             <div class="col-md-3">
-                <img src="{{ person.photo }}" class="img-fluid img-profile" alt="">
+                <img src="{{ person.photo }}" class="img-fluid img-profile" alt="Photo of {{ person.name }}">
             </div>
             <div class="col-md-9">
                 <div class="card-body profile-body">

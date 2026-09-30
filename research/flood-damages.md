@@ -40,7 +40,7 @@ excerpt: ""
         <p style="line-height: normal" class="m-0 pb-1">
             <b>Related Publications</b>
         </p>
-        <p style="line-height: normal" class="m-0 pb-1"><small>Davenport, F. V., M. Burke, and N. S. Diffenbaugh (2021) . Contribution of historical precipitation change to US flood damages, Proceedings of the National Academy of Sciences,  <a href="https://doi.org/10.1073/pnas.2017524118" target='_blank'>https://doi.org/10.1073/pnas.2017524118</a></small>
+        <p style="line-height: normal" class="m-0 pb-1"><small>Davenport, F. V., M. Burke, and N. S. Diffenbaugh (2021). Contribution of historical precipitation change to US flood damages, Proceedings of the National Academy of Sciences,  <a href="https://doi.org/10.1073/pnas.2017524118" target='_blank'>https://doi.org/10.1073/pnas.2017524118</a></small>
         </p>
     </div>
 </div>

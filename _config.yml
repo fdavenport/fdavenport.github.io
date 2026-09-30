@@ -2,19 +2,20 @@
 plugins:
 - jekyll-sitemap
 - jekyll-mentions
-- jekyll-paginate
 - jekyll-seo-tag
-- jekyll-redirect-from
-- jekyll-feed
-- jekyll-commonmark
-- jekyll-include-cache
 - jemoji
 
 # 4. Jekyll settings
 sass:
   style: compressed # Style compression
-permalink: pretty  # Permalink style (/YYYY/MM/DD/page-name/)
-excerpt_separator: <!-- more --> # Marks end of excerpt in posts
+permalink: pretty  # Pages are served as /page-name/
+exclude: # Files in the repo that should not be published to the site
+  - README.md
+  - REVIEW.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
 
 
 # 6. Jekyll collections settings
@@ -36,9 +37,9 @@ encoding: utf-8 # Make sure the encoding is right
 
 title: "Davenport Research Group" # Site name or title, also used in jekyll-seo-tag
 author: "Frances Davenport"
-logo: "https://cdn.jsdelivr.net/gh/realmiketalbot/fdavenport.github.io/assets/cloud-computing-svgrepo-com.svg"
-description: "" # Site description and default description, also used in jekyll-seo-tag
-url: "" # Site url, also used in jekyll-seo-tag
+logo: "/assets/images/logo/cloud-computing-svgrepo-com.svg"
+description: "The Davenport Research Group at Colorado State University studies global climate, the hydrologic cycle, and extreme climate events." # Site description and default description, also used in jekyll-seo-tag
+url: "https://fdavenport.github.io" # Site url, also used in jekyll-seo-tag
 baseurl: ""
 repo: ""
 email: ""
@@ -61,19 +62,6 @@ navigation_header:
   url: /code/
 - title: Opportunities
   url: /opportunities/
-
-navigation_footer:
-- title: 
-  url: 
-
-social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
-  Twitter: https://twitter.com/fvdav
-  GitHub: https://github.com/fdavenport
-
-sharing_links: # Appear at the bottom of single blog posts, add as desired. The value can be 'true' or the desired button colour
-  Twitter: "#0d94e7"
-  facebook: "#3B5998"
-  Email: true
 
 # Load custom fonts from fonts.google.com etc
 #
