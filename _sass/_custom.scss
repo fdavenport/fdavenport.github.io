@@ -48,6 +48,15 @@ hr {
 }
 
 
+// An image inside a bulleted list item (e.g. a news photo) shows as a small block
+.typeset li > img {
+  display: block;
+  width: 300px;
+  max-width: 100%;
+  margin: .25rem 0;
+}
+
+
 // Research page sections
 .typeset .project-section > h4 {
   margin-bottom: .5rem;
@@ -177,6 +186,13 @@ hr {
 }
 
 // People: photo left, bio right (stacked on phones)
+.typeset .card__bio p {
+  margin: 0 0 1em;
+  padding: 0;
+  font-size: .8em;
+  line-height: normal;
+}
+
 .card--person {
   .card__image {
     height: 250px;

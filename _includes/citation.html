@@ -1,9 +1,9 @@
 {%- comment -%}
-  Formats one entry from _data/publications.yml.
+  Formats one entry from _data/publications.yml. Authors may use Markdown, e.g. **F. V. Davenport**.
   Usage: {% include citation.html paper=paper press=true %}
 {%- endcomment -%}
 {%- assign paper = include.paper -%}
-       {{ paper.authors }}
+       {{ paper.authors | markdownify | remove: "<p>" | remove: "</p>" | strip }}
 
 		{% if paper.year %}
         <b>({{ paper.year }})</b>.

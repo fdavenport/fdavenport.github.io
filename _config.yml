@@ -24,6 +24,8 @@ collections:
   research: # One Markdown file per project in _research/ (see templates/research-project.md)
     output: true
     permalink: /research/:name/
+  people: # One Markdown file per group member in _people/ (see templates/person.md)
+    output: false # shown on the People page only, not as separate pages
 
 defaults:
   -

@@ -25,9 +25,17 @@ Then open [http://127.0.0.1:4000/](http://127.0.0.1:4000/) in your browser. The 
 
 Make your changes on the `dev` branch or a new branch. When you are happy with them, open a pull request to merge them into `master`, which makes them live on the website.
 
-**To add your profile information:**
-* Add your information to _data/people.yml following the same format as existing group members.
-* Add your profile picture to assets/images/profile using the naming convention [Lastname].jpg. 
+**To add yourself to the People page:**
+* Copy `templates/person.md` into the `_people/` folder and rename it to your last name in lowercase (e.g. `talbot.md`).
+* Add your photo to `assets/images/profile/` using the naming convention `[Lastname].jpg`.
+* Fill in your name, pronouns, and photo at the top of the file, and write your bio below it in plain Markdown. The `order` setting controls where you appear on the page.
+
+**To add a news item:**
+* Add a bullet to the "Recent News" list in `index.md`, newest first. To include a photo, put it on the line right after the bullet's text, indented two spaces:
+  ```markdown
+  * The group presented at the AGU fall meeting.
+    ![Group members in front of their poster](/assets/images/news/agu2024.jpg)
+  ```
 
 **To add a research project:**
 * Copy `templates/research-project.md` into the `_research/` folder and rename it to a short, lowercase, hyphenated name (e.g. `snow-drought.md`). The file name becomes the page address (`/research/snow-drought/`).

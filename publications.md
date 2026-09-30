@@ -5,7 +5,7 @@ feature_image: "/assets/images/feature/bangladesh.jpg"
 excerpt: ""
 ---
 
-<i>You can also find a list of publications on <a href="https://scholar.google.com/citations?user=37P41e4AAAAJ&hl=en" target="_blank">Google Scholar</a>. </i>
+*You can also find a list of publications on [Google Scholar](https://scholar.google.com/citations?user=37P41e4AAAAJ&hl=en).*
 
 <ol reversed="reversed">
     {% for paper in site.data.publications %}
