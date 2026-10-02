@@ -56,7 +56,13 @@
   year: 2022
   journal: Geophysical Research Letters
   DOI: https://doi.org/10.1029/2022GL098855
-  press: 'press_Yu2022'
+  press:
+    - name: Desert Research Institute
+      link: 'https://www.dri.edu/study-explores-uncertainties-in-flood-risk-estimates/'
+    - name: CSU News
+      link: 'https://engr.source.colostate.edu/study-shows-need-to-revise-existing-methods-for-estimating-flood-risk/'
+    - name: NSF
+      link: 'https://www.google.com/url?q=https://beta.nsf.gov/news/scientists-discover-uncertainties-flood-risk-estimates&sa=D&source=editors&ust=1659980196567652&usg=AOvVaw308J-D9joTcyfnKC6A4I-1'
   pdf: Yu_etal_2022.pdf
   
 - authors: "Diffenbaugh, N. S., and **F. V. Davenport**"
@@ -71,7 +77,9 @@
   year: 2021
   journal: Geophysical Research Letters
   DOI: https://doi.org/10.1029/2021GL094038
-  press: 'press_Johnston2021'
+  press:
+    - name: AGU News
+      link: 'https://news.agu.org/press-release/urban-areas-more-likely-to-have-precipitation-triggered-landslides/'
 
 - authors: "**Davenport, F. V.**, and N. S. Diffenbaugh"
   title: "Using Machine Learning to Analyze Physical Causes of Climate Change: A Case Study of U.S. Midwest Extreme Precipitation"
@@ -79,7 +87,11 @@
   journal: Geophysical Research Letters
   DOI: https://doi.org/10.1029/2021GL093787
   pdf: Davenport_Diffenbaugh_2021.pdf
-  press: 'press_GRL2021'
+  press:
+    - name: Stanford News
+      link: 'https://news.stanford.edu/2021/08/10/understanding-extreme-weather/'
+    - name: Stanford Woods Institute (video)
+      link: 'https://www.youtube.com/watch?v=_R8r4bB2T4w'
 
 - authors: "Diffenbaugh, N. S., **F. V. Davenport**, and M. Burke"
   title: "Historical warming has increased U.S. crop insurance losses"
@@ -87,7 +99,11 @@
   journal: Environmental Research Letters
   DOI: https://doi.org/10.1088/1748-9326/ac1223
   pdf: Diffenbaugh_etal_2021.pdf
-  press: 'press_Diffenbaugh2021'
+  press:
+    - name: Stanford News
+      link: 'https://news.stanford.edu/2021/08/04/climate-change-crop-insurance/'
+    - name: Scientific American
+      link: 'https://www.scientificamerican.com/article/climate-change-is-hitting-farmers-hard/'
   
 - authors: "Simpson, I. R., K. A. McKinnon, **F. V. Davenport**, M. Tingley, F. Lehner, A. Al Fahad, and D. Chen"
   title:  "Emergent constraints on the large scale atmospheric circulation and regional hydroclimate: do they still work in CMIP6 and how much can they actually constrain the future?"
@@ -102,7 +118,23 @@
   journal: Proceedings of the National Academy of Sciences
   DOI: https://doi.org/10.1073/pnas.2017524118
   pdf: Davenport_etal_2021.pdf
-  press: 'press_PNAS2021' 
+  press:
+    - name: Washington Post
+      link: 'https://www.washingtonpost.com/health/climate-change-blamed-for-a-third-of-us-flood-losses-in-past-3-decades/2021/01/15/398728a2-544c-11eb-a817-e5e7f8a406d6_story.html'
+    - name: SF Chronicle
+      link: 'https://www.sfchronicle.com/environment/article/Climate-change-causing-one-third-of-flood-damage-15862429.php'
+    - name: Bloomberg
+      link: 'https://www.bloomberg.com/news/articles/2021-01-11/flooding-due-to-climate-change-caused-75-billion-of-damage-in-the-u-s'
+    - name: CBS News
+      link: 'https://www.cbsnews.com/news/climate-change-flood-costs-study/'
+    - name: Reuters
+      link: 'https://www.reuters.com/article/climate-change-usa-floods/climate-change-blamed-for-a-third-of-u-s-flood-losses-in-past-3-decades-idUSL8N2JM30N'
+    - name: CNBC
+      link: 'https://www.cnbc.com/2021/01/11/climate-change-has-cost-the-us-billions-of-dollars-in-flood-damage.html'
+    - name: Earther
+      link: 'https://earther.gizmodo.com/climate-change-drove-75-billion-in-rainfall-damage-ove-1846042659'
+    - name: Stanford News
+      link: 'https://news.stanford.edu/2021/01/11/climate-change-caused-one-third-historical-flood-damages/'
   email:
   altmetric:
   
@@ -112,6 +144,8 @@
   journal: Water Resources Research
   DOI: https://doi.org/10.1029/2019WR025571
   pdf: Davenport_etal_2020.pdf
-  press: 'press_WRR2020' 
+  press:
+    - name: Stanford News
+      link: 'https://news.stanford.edu/2020/01/27/rain-less-snow-increases-flooding/'
   email:
   altmetric: 

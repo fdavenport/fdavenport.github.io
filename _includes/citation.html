@@ -1,5 +1,6 @@
 {%- comment -%}
   Formats one entry from _data/publications.yml. Authors may use Markdown, e.g. **F. V. Davenport**.
+  Media coverage is listed under the paper's `press:` key, each item with a `name` and `link`.
   Usage: {% include citation.html paper=paper press=true %}
 {%- endcomment -%}
 {%- assign paper = include.paper -%}
@@ -26,7 +27,7 @@
 
     {% if include.press and paper.press %}
         <strong style="color:#828282">See media coverage in:  </strong>
-            {% for item in site.data[paper.press] %}
-                <a href="{{item.pressLink}}" target='_blank'>{{ item.press }}</a>
+            {% for item in paper.press %}
+                <a href="{{ item.link }}" target='_blank'>{{ item.name }}</a>{% unless forloop.last %},{% endunless %}
             {% endfor %}
 	{% endif %}
