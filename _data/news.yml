@@ -15,12 +15,18 @@
 
 - date: 2025-12-15
   text: |
-    Our group attended the AGU fall meeting in New Orleans in December.
+    Our group attended the AGU fall meeting in New Orleans in December. Nicole presented her research on geospatial attributes of global flood disasters, and  Mike presented his research on improving LSTM streamflow models for predicting high-flow events.
+  image: /assets/images/news/keeney_agu2025.jpg
+  image_alt: Nicole presenting at AGU
 
 - date: 2025-10-16
   text: |
     Nicole Keeney successfully defended her MS thesis, *A spatially and temporally disaggregated twenty first century global flood record for flood impact analysis*. Congratulations, Nicole!
 
+- date: 2025-02-01
+  text: |
+    We have two undergraduate researchers, Brigid and Rob, who are working with 
+    
 - date: 2024-12-01
   text: |
     Mike Talbot and Frances Davenport attended the AGU fall meeting in Washington, D.C. in December.
