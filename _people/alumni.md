@@ -21,13 +21,23 @@ alumni:
     position: MS Student
     years: "2023–2025"
     details: |
-      MS thesis: *A spatially and temporally disaggregated twenty first century global flood record for flood impact analysis*
-
+      Now a Research Software Engineer at Eagle Rock Analytics
+      
   - name: Brigid Neuheardt
     position: Undergraduate Researcher
-    years: "2025"
+    years: "Spring 2025"
 
   - name: Rob Iliff
     position: Undergraduate Researcher
-    years: "2025"
+    years: "Spring 2025"
+  
+  - name: Bryam Orihuela-Pinto
+    position: Postdoctoral Researcher
+    years: "2023-2025"
+    details: |
+      Now an Associate Researcher at Universidad de Ingeniería y Tecnología (Peru)
+      
+  - name: Madisyn Bietz
+    position: Undergraduate Researcher
+    years: "Spring 2023"
 ---
