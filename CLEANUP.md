@@ -4,7 +4,7 @@ A summary of the restructuring on the `site-cleanup` branch. See the README for 
 
 ## Content is now Markdown-first
 - **Research projects:** one Markdown file per project in `_research/`, rendered by `_layouts/research.html`. Start from `templates/research-project.md`. Related publications are listed by DOI and pulled from `_data/publications.yml`.
-- **People:** one Markdown file per person in `_people/`. Start from `templates/person.md`. Alumni are listed in `_data/alumni.yml` and shown as a simple list (name, position, years, optional details).
+- **People:** one Markdown file per person in `_people/`. Start from `templates/person.md`. Alumni are listed in `_people/alumni.md` and shown as a simple list (name, position, years, optional details).
 - **News:** items live in `_data/news.yml`. The home page shows the 5 newest; `/news/` keeps the full history.
 - **Publications:** author names are bolded with Markdown (`**...**`) instead of HTML, and citations share one format (`_includes/citation.html`).
 

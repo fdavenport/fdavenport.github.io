@@ -18,7 +18,7 @@ photo: /assets/images/profile/Lastname.jpg
 position: PhD Student              # your role in the group, e.g. Postdoc, MS Student, Undergraduate Researcher
 
 # When you leave the group, delete your file from _people/ and add an entry
-# to _data/alumni.yml instead.
+# to _people/alumni.md instead.
 
 # Position on the People page: lower numbers appear first. Current members use
 # multiples of 10 (10, 20, 30, ...), so pick a number after the last person, or

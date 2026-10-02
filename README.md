@@ -39,7 +39,7 @@ Make your changes on the `dev` branch or a new branch. When you are happy with t
 * Copy `templates/person.md` into the `_people/` folder and rename it to your last name in lowercase (e.g. `talbot.md`).
 * Add your photo to `assets/images/profile/` using the naming convention `[Lastname].jpg`.
 * Fill in your name, pronouns, and photo at the top of the file, and write your bio below it in plain Markdown. The `order` setting controls where you appear on the page.
-* When someone leaves the group, delete their file from `_people/` and add them to the top of `_data/alumni.yml` with their position, the years they were in the group, and optional details. The Alumni section at the bottom of the People page is a simple list built from that file.
+* When someone leaves the group, delete their file from `_people/` and add them to the top of `_people/alumni.md` with their position, the years they were in the group, and optional details. The Alumni section at the bottom of the People page is a simple list built from that file.
 
 **To add a news item:**
 * Add an entry at the top of `_data/news.yml`. The instructions at the top of that file show the format: a date, the text (Markdown is fine), and an optional photo.

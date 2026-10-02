@@ -8,10 +8,10 @@ excerpt: ""
 
 {%- comment -%}
   Cards are built from the files in _people/, sorted by their "order" setting.
-  Alumni are listed in _data/alumni.yml.
+  Alumni are listed in _people/alumni.md, which is left out of the cards.
 {%- endcomment -%}
-{%- assign people = site.people | sort: "order" -%}
-{%- assign alumni = site.data.alumni -%}
+{%- assign people = site.people | where_exp: "person", "person.alumni == nil" | sort: "order" -%}
+{%- assign alumni = site.people | where_exp: "person", "person.alumni" | map: "alumni" | first -%}
 
 <section class="page-section people-list">
 {% for person in people %}
