@@ -4,7 +4,6 @@ prefix: Dr.
 pronouns: she/her
 photo: /assets/images/profile/Davenport.jpg
 position: Assistant Professor
-status: current
 order: 10
 ---
 

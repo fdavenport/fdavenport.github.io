@@ -2,7 +2,6 @@
 name: Alexandria Rodgers
 photo: /assets/images/profile/Rodgers.jpg
 position: PhD Student
-status: current
 order: 50
 ---
 

@@ -3,7 +3,6 @@ name: Mike Talbot
 pronouns: he/him
 photo: /assets/images/profile/Talbot.jpg
 position: PhD Student
-status: current
 order: 30
 ---
 

@@ -2,7 +2,6 @@
 name: Bill Doan
 photo: /assets/images/profile/Doan.jpg
 position: PhD Student
-status: current
 order: 40
 ---
 

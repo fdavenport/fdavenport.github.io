@@ -222,47 +222,11 @@ hr {
 }
 
 
-// Alumni: compact grid of photo, name, position, and years
-.alumni-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 1rem $gutter;
-
-  @media (min-width: $break-md) {
-    grid-template-columns: repeat(4, 1fr);
-  }
-}
-
-.alumni-card {
-  line-height: normal;
-}
-
-.alumni-card__image {
-  display: block;
-  width: 100%;
-  aspect-ratio: 1 / 1;
-  margin: 0 0 .5rem;
-  object-fit: cover;
-  object-position: 50% 25%;
-  border: 1px solid $cardBorderColour;
-  border-radius: $cardRadius;
-}
-
-.typeset .alumni-card__name,
-.typeset .alumni-card__meta {
-  margin: 0;
-  padding: 0;
+// Alumni: plain list of name, position, and years
+.typeset .alumni-list li {
   font-size: .8em;
   line-height: normal;
-}
-
-.typeset .alumni-card__name {
-  font-weight: map-get($bodytype, bold);
-}
-
-.typeset .alumni-card__meta {
-  font-size: .7em;
-  color: $mutedColour;
+  margin-bottom: .5em;
 }
 
 // Research project pages (_layouts/research.html)
