@@ -7,8 +7,30 @@ excerpt: ""
 
 *You can also find a list of publications on [Google Scholar](https://scholar.google.com/citations?user=37P41e4AAAAJ&hl=en).*
 
-<ol reversed="reversed">
-    {% for paper in site.data.publications %}
+{% assign submitted = site.data.publications | where: "status", "submitted" %}
+{% assign published = site.data.publications | where_exp: "paper", "paper.status != 'submitted'" %}
+
+{% if submitted.size > 0 %}
+## Submitted
+
+<ul class="publication-list">
+    {% for paper in submitted %}
+      <li>
+       {% include citation.html paper=paper press=true %}
+
+      </li>
+	  <br/>
+    {% endfor %}
+  </ul>
+{% endif %}
+
+{% assign paper_number = published.size %}
+{% assign papers_by_year = published | group_by: "year" %}
+{% for year in papers_by_year %}
+## {{ year.name }}
+
+<ol class="publication-list" reversed="reversed" start="{{ paper_number }}">
+    {% for paper in year.items %}
       <li>
        {% include citation.html paper=paper press=true %}
 
@@ -16,10 +38,12 @@ excerpt: ""
 	  <br/>
     {% endfor %}
   </ol>
+{% assign paper_number = paper_number | minus: year.size %}
+{% endfor %}
 
 ## Other writing
 
-<ul>
+<ul class="publication-list">
 {% for item in site.data.writing %}
 
       <li>

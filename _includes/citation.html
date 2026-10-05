@@ -12,10 +12,14 @@
 
         <i>{{ paper.title }}</i>,
 
+		{% if paper.status == "submitted" %}
+        <i>(submitted to {{ paper.journal }})</i>
+		{% else %}
         <b>{{ paper.journal }}</b>,
 
         	{% if paper.status %}
         <i>({{ paper.status }})</i>
+		{% endif %}
 		{% endif %}
 
 	     <a href="{{ paper.DOI }}" target='_blank'>{{ paper.DOI }}</a>
