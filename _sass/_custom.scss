@@ -350,3 +350,14 @@ $figureBorderColour: #dee2e6;
 .typeset .publication-list li {
   font-size: .9em;
 }
+
+// Publications page section headings: 80% of the normal h2 size at every breakpoint
+.typeset h2.publication-heading {
+  font-size: #{.8 * map-get(map-get($modular-scale, scale-0), beta) / nth($sizes, 1)}rem;
+
+  @for $i from 2 through $breakpoints-limit {
+    @media screen and (min-width: nth($points, $i) / 16 * 1em) {
+      font-size: #{.8 * map-get(map-get($modular-scale, scale-#{$i - 1}), beta) / nth($sizes, $i)}rem;
+    }
+  }
+}

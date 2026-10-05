@@ -12,6 +12,7 @@ excerpt: ""
 
 {% if submitted.size > 0 %}
 ## Submitted
+{: .publication-heading}
 
 <ul class="publication-list">
     {% for paper in submitted %}
@@ -28,6 +29,7 @@ excerpt: ""
 {% assign papers_by_year = published | group_by: "year" %}
 {% for year in papers_by_year %}
 ## {{ year.name }}
+{: .publication-heading}
 
 <ol class="publication-list" reversed="reversed" start="{{ paper_number }}">
     {% for paper in year.items %}
@@ -42,6 +44,7 @@ excerpt: ""
 {% endfor %}
 
 ## Other writing
+{: .publication-heading}
 
 <ul class="publication-list">
 {% for item in site.data.writing %}
