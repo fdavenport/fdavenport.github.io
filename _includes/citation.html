@@ -4,7 +4,7 @@
   Usage: {% include citation.html paper=paper press=true %}
 {%- endcomment -%}
 {%- assign paper = include.paper -%}
-       {{ paper.authors | markdownify | remove: "<p>" | remove: "</p>" | strip }}
+       {{ paper.authors | markdownify | remove: "<p>" | remove: "</p>" | strip }}{% if paper.status == "submitted" %}.{% endif %}
 
 		{% if paper.year %}
         <b>({{ paper.year }})</b>.
