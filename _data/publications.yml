@@ -1,20 +1,37 @@
+- authors: "Trok, J. T., E. A. Barnes, E. M. Gordon, **F. V. Davenport**, & N. S. Diffenbaugh"
+  title: "Global emissions since the Paris agreement have intensified Europe's recent heatwaves"
+  year: 2026
+  journal: "Geophysical Research Letters"
+  DOI: https://doi.org/10.1029/2026GL125079
+  pdf: Trok_et_al_2026.pdf
+  
+- authors: "Shaffer, M., N. Awad, **F. V. Davenport**, and S. Fakhreddine"
+  title: "Evaluating the Resilience of Drinking Water Systems to Severe Weather Events Using Boil Water Notices and Bottled Water Sales"
+  year: 2026
+  journal: "Environmental Science & Technology"
+  DOI: https://doi.org/10.1021/acs.est.5c18579
+  pdf: Shaffer_et_al_2026.pdf
+  
 - authors: "Orihuela-Pinto, B., P. W. Keys, **F. V. Davenport**, and E. A. Barnes"
   title: "Uncovering patterns of converging human-induced pressure on global lands"
   year: 2025
   journal: "Machine Learning: Earth"
   DOI: https://doi.org/10.1088/3049-4753/ae2278
+  pdf: Orihuela-Pinto_et_al_2025.pdf
 
 - authors: "Kalashnikov, D. A., J. T. Abatzoglou, **F. V. Davenport**, Z. M. Labe, P. C. Loikith, D. Touma, and D. Singh"
   title: "Projections of lightning-ignited wildfire risk in the western United States"
   year: 2025
   journal: "Earth's Future" 
   DOI: https://doi.org/10.1029/2025EF006108
+  pdf: Kalashnikov_et_al_2025.pdf
 
 - authors: "Kalashnikov, D. A., **F. V. Davenport**, Z. M. Labe, P. C. Loikith, J. T. Abatzoglou, and D. Singh"
   title: "Predicting Cloud‐To‐Ground Lightning in the Western United States From the Large‐Scale Environment Using Explainable Neural Networks"
   year: 2024
   journal: "Journal of Geophysical Research: Atmospheres"
   DOI:  https://doi.org/10.1029/2024JD042147
+  pdf: Kalashnikov_et_al_2024.pdf
   
 - authors: "Trok, J. T., E. A. Barnes, **F. V. Davenport**, and N. S. Diffenbaugh"
   title: "Machine learning–based extreme event attribution"
