@@ -36,10 +36,10 @@ o	Evaluating operational changes and conservation techniques to existing water r
 
 ## Past Technical Analyses Using as Basis for Dissertation:
 
-o	Panama Canal Climate Modelling– Lead investigator for USACE/Panama-Canal-Authority that evaluated impacts of future climate change on Panama Canal Operations using CMIP5 General Climate Models’ Forcing Functions.
+o	Panama Canal Climate Modelling– Technical analysis for USACE/Panama-Canal-Authority that evaluated impacts of future climate change on Panama Canal Operations using CMIP5 General Climate Models’ Forcing Functions.
 
-o	Indus River Basin Hydrologic Forecasting – Lead investigator for USACE-U.S. State Department-Pakistan’s National Disaster Management Agency to develop a snowmelt-monsoonal flood-forecasting simulation model for the Indus River Basin.   
+o	Indus River Basin Hydrologic Forecasting – Technical analysis for USACE-U.S. State Department-Pakistan’s National Disaster Management Agency to develop a snowmelt-monsoonal flood-forecasting simulation model for the Indus River Basin.   
 
-o	Afghanistan/Pakistan Water Resources Cooperation – Lead investigator for USACE-USAID-U.S. State Department in mentoring Afghanistan’s engineers on co-managing the joint Kabul River, which originates in Pakistan, flows into Afghanistan, then back into Pakistan.
+o	Afghanistan/Pakistan Water Resources Cooperation – Technical support for USACE-USAID-U.S. State Department in mentoring Afghanistan’s engineers on co-managing the joint Kabul River, which originates in Pakistan, flows into Afghanistan, then back into Pakistan.
 
-o	Brazil’s National Water Agency – Lead investigator to Brazil’s National Water Agency to evaluate changes in reservoir systems operations from hydropower generation to flood control using complex reservoir simulation/optimization modelling.
+o	Brazil’s National Water Agency – Technical analysis to Brazil’s National Water Agency to evaluate changes in reservoir systems operations from hydropower generation to flood control using complex reservoir simulation/optimization modelling.
