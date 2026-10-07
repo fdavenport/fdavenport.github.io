@@ -15,8 +15,10 @@
 
 - authors: "**Davenport, F. V.** and D. Touma"
   title: "Discrepancies in Extreme Daily and Monthly Precipitation Trends between Observations and Earth System Models"
+  year: 2026
   journal: "Geophysical Research Letters"
-  status: submitted
+  DOI:  https://doi.org/10.1029/2026GL124747
+  pdf: Davenport_Touma_2026.pdf
   
 - authors: "Trok, J. T., E. A. Barnes, E. M. Gordon, **F. V. Davenport**, & N. S. Diffenbaugh"
   title: "Global emissions since the Paris agreement have intensified Europe's recent heatwaves"
