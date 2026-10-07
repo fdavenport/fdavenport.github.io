@@ -6,6 +6,8 @@ thumbnail: [https://levees.sec.usace.army.mil/images/levee-basics/road_on_levee.
 thumbnail_caption: Engineered levees adjacent to a floodplain (Photo by USACE)
 summary: Recent research shows a significant gap in the documentation of levees and other anthropogenic structures near floodplains. Understanding where these structures exist and what they are protecting impact our understanding of flooding behavior, risk exposure, and effective development planning.
 
+feature_image: /assets/images/feature/mississippi_crop.jpg
+
 members: [Alexandria Rodgers, Frances Davenport]
 study_areas: [Contiguous U.S.]
 ---
