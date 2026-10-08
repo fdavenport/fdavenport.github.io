@@ -17,7 +17,7 @@ This dissertation deals with advanced deterministic state-of-the art engineering
  
 ## Part One
 
-o	Using the latest hydrologic state-of-the-art techniques (energy budget snowmelt analysis, gridded climate reanalysis forcing function, fully gridded basin runoff parameters, etc.) to calibrate existing rainfall-snow-accumulation, snowmelt, and runoff relationships for the transboundary Jhelum River in India and Pakistan as a case study.
+o	Usie the latest hydrologic state-of-the-art techniques (energy budget snowmelt analysis, gridded climate reanalysis forcing function, fully gridded basin runoff parameters, etc.) to calibrate existing rainfall-snow-accumulation, snowmelt, and runoff relationships for the transboundary Jhelum River in India and Pakistan as a case study.
 
 
 ## Part Two
@@ -27,7 +27,7 @@ o	Apply future climate scenarios to calibrated watershed and evaluate potential 
 
 ## Part Three
 
-o	Evaluating operational changes and conservation techniques to existing water resources infrastructure (dams and reservoirs) and potential new infrastructure to help mitigate adverse climate impacts.
+o	Evaluate operational changes and conservation techniques to existing water resources infrastructure (dams and reservoirs) and potential new infrastructure to help mitigate adverse climate impacts.
 
 
 
