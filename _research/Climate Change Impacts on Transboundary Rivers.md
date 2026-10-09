@@ -4,7 +4,7 @@ status: On-Going
 People: William Doan, Frances Davenport, Jeffrey Niemann
 
 thumbnail: /assets/images/research/uib.jpg
-thumbnail_alt: image of flooded river raging under an arched bridge
+thumbnail_alt: image of Upper Indus Basin
 
 
  
